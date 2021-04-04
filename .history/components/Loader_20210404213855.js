@@ -7,4 +7,4 @@ const Container = () => {
     <BoxLoading />
 }
 
-export default Container
+export default Conta
