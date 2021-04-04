@@ -16,8 +16,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <link 
           rel="stylesheet"
-          href="" 
-      />
+          />
     </Head>
     <Component {...pageProps} />
   </>
