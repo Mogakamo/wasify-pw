@@ -7,7 +7,7 @@ import Head from 'next/head'
 //MUI Core
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider } from '@material-ui/core/styles'
-import theme from 'Utils/theme'
+
 
 //Binding events for the loader
 Router.events.on('routeChangeStart', () => NProgress.start())
