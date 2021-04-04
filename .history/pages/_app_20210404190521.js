@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react'
 import '../styles/globals.css'
-import Router from 'next/router'
+import {Router from 'next/router'
 import NProgress from 'nprogress' //nprogress module 
 import 'nprogress/nprogress.css'  //styles for the nprogress package
 import Head from 'next/head'
-//MUI Core
+
 
 
 //Binding events for the loader
