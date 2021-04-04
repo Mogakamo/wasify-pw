@@ -5,10 +5,10 @@ import Container from '../components/Loader'
 
 export default function Home() {
   return (
-    
+    <Container />
     <div>
       <h1>Homepage</h1>
-    < Container / >
+
     </div>
   )
 }
