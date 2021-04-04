@@ -13,30 +13,17 @@ Router.events.on('routeChangeError', () => NProgress.done())
 
 
 function MyApp({ Component, pageProps }) {
-  // useEffect config material-ui
-  useEffect(() => {
-    // Remove the server-side injected CSS.
-    const jssStyles = document.querySelector("#jss-server-side");
-    if (jssStyles && jssStyles.parentNode)
-      jssStyles.parentNode.removeChild(jssStyles);
-  }, []);
-
+  
   
   return (
   <>
-  
     <Head>
       <link 
           rel="stylesheet"
           href = "https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
       />
     </Head>
-  <Provider store={store}>
-      <ThemeProvider theme={theme}>
-              <CssBaseline />
-              <Component {...pageProps} />
-      </ThemeProvider>
-    </Provider>
+    <Component {...pageProps} />
   </>
   )
 }

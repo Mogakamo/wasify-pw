@@ -24,19 +24,29 @@ function MyApp({ Component, pageProps }) {
   
   return (
   <>
-  
+  < Provider store = {
+      store
+    } >
+    <
+    ThemeProvider theme = {
+      theme
+    } >
+    <
+    CssBaseline / >
+    <
+    Component {
+      ...pageProps
+    }
+  /> <
+  /ThemeProvider> <
+  /Provider>
     <Head>
       <link 
           rel="stylesheet"
           href = "https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
       />
     </Head>
-  <Provider store={store}>
-      <ThemeProvider theme={theme}>
-              <CssBaseline />
-              <Component {...pageProps} />
-      </ThemeProvider>
-    </Provider>
+    <Component {...pageProps} />
   </>
   )
 }

@@ -31,12 +31,7 @@ function MyApp({ Component, pageProps }) {
           href = "https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
       />
     </Head>
-  <Provider store={store}>
-      <ThemeProvider theme={theme}>
-              <CssBaseline />
-              <Component {...pageProps} />
-      </ThemeProvider>
-    </Provider>
+    <Component {...pageProps} />
   </>
   )
 }
