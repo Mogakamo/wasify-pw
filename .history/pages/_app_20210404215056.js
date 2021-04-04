@@ -26,7 +26,7 @@ export default class MyApp extends App {
           />
         </Head>
 
-       
+        <Component {...pageProps} />
       </>
     );
   }
