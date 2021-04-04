@@ -21,5 +21,4 @@ const appProps = await App.getInitialProps(appContext);
 
    return { ...appProps }
 }
-
 export default MyApp
