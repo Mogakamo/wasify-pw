@@ -5,8 +5,7 @@
  */
 //imports for all the other component
 //save for the loader.js
-import Hero from './Hero'
-
+import 
 
 //Layout
 const Layout = () => {

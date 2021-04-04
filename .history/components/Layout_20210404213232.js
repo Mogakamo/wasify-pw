@@ -3,9 +3,6 @@
  *      other components how they will appear.
  * NB: This will be for the sake of easier execution 
  */
-//imports for all the other component
-//save for the loader.js
-import Hero from './Hero'
 
 
 //Layout
