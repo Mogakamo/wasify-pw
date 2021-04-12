@@ -13,8 +13,6 @@ import Footer from './Footer'
 const Layout = () => {
     return(
         <Hero />
-
-        <Footer />
     )
 }
 

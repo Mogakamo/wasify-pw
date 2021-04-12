@@ -6,15 +6,13 @@
 //imports for all the other component
 //save for the loader.js
 import Hero from './Hero'
-import Footer from './Footer' 
+import  
 
 
 //Layout
 const Layout = () => {
     return(
         <Hero />
-
-        <Footer />
     )
 }
 
