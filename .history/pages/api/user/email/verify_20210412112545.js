@@ -15,20 +15,4 @@ handler.post(async (req, res) => {
         type: 'emailVerify',
         expiredAt: new Date(Date.now() + 1000 * 60 * 60 * 24),
     })
-
-    const msg = {
-        to: req.user.email,
-        from: process.env.EMAIL_FROM,
-        subject: `Verification Email for ${process.env.WEB_URI}`,
-        html: `
-            <div>
-                <p>Hello, ${req.user.name}</p>
-                <p>Please follow <a href="${process.env.WEB_URI}/verify-email/${token._id}">this link</a> to confirm your email address.</p>
-            </div>
-        `,
-    }
-    await sendMail(msg);
-    res.end('ok')
 })
-
-export default handler

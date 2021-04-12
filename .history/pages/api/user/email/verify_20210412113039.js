@@ -31,4 +31,4 @@ handler.post(async (req, res) => {
     res.end('ok')
 })
 
-export default handler
+export default 

@@ -27,8 +27,4 @@ handler.post(async (req, res) => {
             </div>
         `,
     }
-    await sendMail(msg);
-    res.end('ok')
 })
-
-export default handler

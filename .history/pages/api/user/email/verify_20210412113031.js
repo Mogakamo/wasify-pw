@@ -30,5 +30,3 @@ handler.post(async (req, res) => {
     await sendMail(msg);
     res.end('ok')
 })
-
-export default handler

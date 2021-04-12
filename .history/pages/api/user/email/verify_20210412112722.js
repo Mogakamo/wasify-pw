@@ -20,15 +20,6 @@ handler.post(async (req, res) => {
         to: req.user.email,
         from: process.env.EMAIL_FROM,
         subject: `Verification Email for ${process.env.WEB_URI}`,
-        html: `
-            <div>
-                <p>Hello, ${req.user.name}</p>
-                <p>Please follow <a href="${process.env.WEB_URI}/verify-email/${token._id}">this link</a> to confirm your email address.</p>
-            </div>
-        `,
+        html: ``
     }
-    await sendMail(msg);
-    res.end('ok')
 })
-
-export default handler
