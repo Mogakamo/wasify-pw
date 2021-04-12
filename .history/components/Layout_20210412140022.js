@@ -16,7 +16,7 @@ const Layout = () => {
         <Hero />
 
         <Footer />
-        </>
+        <>
     )
 }
 
