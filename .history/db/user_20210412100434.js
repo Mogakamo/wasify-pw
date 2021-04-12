@@ -33,8 +33,6 @@ export async function insertUser(db, {
             profilePicture,
             email,
             password,
-            name,
-            bio,
+            
         })
-        .then(({ ops }) => ops[0])
 }

@@ -36,5 +36,5 @@ export async function insertUser(db, {
             name,
             bio,
         })
-        .then(({ ops }) => ops[0])
+        .then(({ ops }) => ops[])
 }

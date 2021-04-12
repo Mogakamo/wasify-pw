@@ -29,12 +29,6 @@ export async function insertUser(db, {
         .collection('users')
         .insertOne({ 
             _id: nanoid(12),
-            emailVerified: false,
-            profilePicture,
-            email,
-            password,
-            name,
-            bio,
+            emailVerified: false
         })
-        .then(({ ops }) => ops[0])
 }

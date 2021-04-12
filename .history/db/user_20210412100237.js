@@ -22,19 +22,6 @@ export async function updateUserById(db, id, update) {
         ).then(({ value }) => value)
 }
 
-export async function insertUser(db, {
-    email, password, bio = '', name, profilePicture,
-}) {
-    return db
-        .collection('users')
-        .insertOne({ 
-            _id: nanoid(12),
-            emailVerified: false,
-            profilePicture,
-            email,
-            password,
-            name,
-            bio,
-        })
-        .then(({ ops }) => ops[0])
+export async function name(params) {
+    
 }

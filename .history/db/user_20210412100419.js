@@ -30,11 +30,6 @@ export async function insertUser(db, {
         .insertOne({ 
             _id: nanoid(12),
             emailVerified: false,
-            profilePicture,
-            email,
-            password,
-            name,
-            bio,
+            
         })
-        .then(({ ops }) => ops[0])
 }
