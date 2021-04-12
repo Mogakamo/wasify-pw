@@ -7,9 +7,9 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 export async function sendMail(msg) {
     try {
-        await sgMail.send(msg)
+        await sgMail.send(m)
     } catch (e) {
-        throw new Error(`Could not send email: ${e.message}`)
+        
     }
     
 }
