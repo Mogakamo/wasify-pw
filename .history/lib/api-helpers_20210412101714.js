@@ -6,5 +6,5 @@ export function extractUser(user) {
     Object.keys(user).forEach((key) => {
         if (!sensitiveFields.includes(key)) obj[key] = user[key];
     })
-    return obj;
+    
 }
