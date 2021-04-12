@@ -10,9 +10,7 @@ import Hero from './Hero'
 
 //Layout
 const Layout = () => {
-    return(
-        <Hero />
-    )
+    
 }
 
 
