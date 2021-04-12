@@ -5,6 +5,6 @@ import Container from '../components/Loader'
 
 export default function Home() {
   return (
-    < Container / >  
+      
   )
 }
