@@ -2,6 +2,7 @@
 
 const Footer = () => {
     return (
+        {/**paypal sdk */}
         
         <div>
   <footer className="bg-gray-800 text-gray-300 px-6 lg:px-8 py-12">
@@ -80,7 +81,7 @@ const Footer = () => {
     </div>
   </footer>
 </div>
-
+        
     )
 }
 
