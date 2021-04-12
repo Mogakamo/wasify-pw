@@ -30,7 +30,8 @@ export default async function database(req, res, next) {
 	}
 	req.dbClient = global.mongo.client;
 	req.db = global.mongo.client.db(process.env.DB_NAME);
-	if (!indexesCreated) await createIndexes(req.db);
-	return next();
+	if (condition) {
+		
+	}
 	
 }

@@ -26,11 +26,6 @@ export default async function database(req, res, next) {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		})
-		await global.mongo.client.connect();
 	}
-	req.dbClient = global.mongo.client;
-	req.db = global.mongo.client.db(process.env.DB_NAME);
-	if (!indexesCreated) await createIndexes(req.db);
-	return next();
 	
 }
