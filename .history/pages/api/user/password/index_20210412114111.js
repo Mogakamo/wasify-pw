@@ -16,7 +16,5 @@ handler.put(async (req, res) => {
 
     await updateUserById(req.db, req.user._id, { password })
 
-    res.end('ok')
+    res.end
 })
-
-export default handler;

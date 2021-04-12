@@ -15,8 +15,4 @@ handler.put(async (req, res) => {
     const password = await bcrypt.hashSync(newPassword, 10);
 
     await updateUserById(req.db, req.user._id, { password })
-
-    res.end('ok')
 })
-
-export default handler;
