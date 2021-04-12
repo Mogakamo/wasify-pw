@@ -74,7 +74,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-sm mt-4">
-        ©2021 Wasify Inc | All rights reserved.
+        ©2021 Wasify Innnnnnnnnnnnnnnnnnc | All rights reserved.
       </div>
     </div>
   </footer>
