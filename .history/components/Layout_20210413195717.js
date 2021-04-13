@@ -10,7 +10,7 @@ import Footer from './Footer'
 import NavBar from './NavBar'
 import Service from './Services'
 import Testimonials from './Testimonials'
-import CallToAction from './CallToAction'
+import CallToAction from ''
 
 
 //Layout
@@ -24,8 +24,6 @@ const Layout = () => {
         <Service />
 
         {/**<Testimonials />*/}
-
-        <CallToAction />
 
         <Footer />
         </>

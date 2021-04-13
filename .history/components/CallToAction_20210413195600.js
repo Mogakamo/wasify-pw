@@ -11,4 +11,4 @@ class CallToAction extends React.Component {
     }
 }
 
-export default CallToAction
+export default CallToActi

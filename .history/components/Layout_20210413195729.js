@@ -25,7 +25,7 @@ const Layout = () => {
 
         {/**<Testimonials />*/}
 
-        <CallToAction />
+        
 
         <Footer />
         </>
