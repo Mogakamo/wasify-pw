@@ -1,7 +1,7 @@
 //sign up page 
 import React from 'react'
 import Head from 'next/head'
-import SignUpForm from '../components/SignUp-Form'
+import SignUpForm from ''
 
 class SignUp extends React.Component {
     render() {
