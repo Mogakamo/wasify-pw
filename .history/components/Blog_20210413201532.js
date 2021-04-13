@@ -2,6 +2,4 @@
 import React from 'react'
 
 
-class Blog extends React.Component {
-    
-}
+class Blog extends React.Component {}
