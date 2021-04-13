@@ -1,7 +1,7 @@
 # Wasify 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![GitHub issues](https://img.shields.io/github/issues/Mogakamo/wasify-pwa.git)](https://github.com/Mogakamo/wasify-pwa.git/issues)
+[![GitHub issues](https://img.shields.io/github/issues/Mogakamo/wasify-pwa)](https://github.com/Mogakamo/wasify-pwa/issues)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributors ✨
