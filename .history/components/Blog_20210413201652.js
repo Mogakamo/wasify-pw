@@ -90,7 +90,7 @@ class Blog extends React.Component {
     </div>
   </div>
 </section>
-        </>
+          </>
        )
    } 
 }
