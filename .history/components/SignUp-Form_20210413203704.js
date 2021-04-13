@@ -6,7 +6,7 @@ class SignUpForm extends React.Component {
         return (
             <>
 
-            </>
+            <>
         )
     }
 }
