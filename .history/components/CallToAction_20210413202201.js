@@ -8,8 +8,8 @@ class CallToAction extends React.Component {
               <section className="text-gray-600 body-font bg-green-100">
   <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
     <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
-      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Wasify for MOBILE</h2>
-      <h1 className="md:text-3xl text-2xl font-medium title-font text-gray-900">stay tuned to get the latest updates on the diversification of our platform.</h1>
+      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"></h2>
+      <h1 className="md:text-3xl text-2xl font-medium title-font text-gray-900">Master Cleanse Reliac Heirloom</h1>
     </div>
     <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
       <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
