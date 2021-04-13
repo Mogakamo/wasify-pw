@@ -8,7 +8,7 @@ class SignUp extends React.Component {
             <>
             <div>
                 <Head>
-                    <title>Sign Up</title>
+                    <title></title>
                 </Head>
             </div>
 
