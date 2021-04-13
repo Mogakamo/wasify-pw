@@ -3,6 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 [![GitHub issues](https://img.shields.io/github/issues/Mogakamo/wasify-pwa)](https://github.com/Mogakamo/wasify-pwa/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Mogakamo/wasify-pwa)](https://github.com/Mogakamo/wasify-pwa/network)
+[![GitHub license](https://img.shields.io/github/license/Mogakamo/wasify-pwa)](https://github.com/Mogakamo/wasify-pwa)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributors ✨
