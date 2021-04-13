@@ -28,8 +28,6 @@ const Layout = () => {
 
         {/**<Testimonials />*/}
 
-        <Blog />
-
         <CallToAction />
 
         <Footer />

@@ -12,7 +12,7 @@ import Service from './Services'
 import Testimonials from './Testimonials'
 import CallToAction from './CallToAction'
 import Feature from './Feature'
-import Blog from './Blog'
+import 
 
 //Layout
 const Layout = () => {
@@ -27,8 +27,6 @@ const Layout = () => {
         <Service />
 
         {/**<Testimonials />*/}
-
-        <Blog />
 
         <CallToAction />
 
