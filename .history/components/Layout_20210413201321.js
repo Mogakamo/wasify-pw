@@ -21,7 +21,7 @@ const Layout = () => {
 
         <Hero />
 
-        <Feature />
+        < />
 
         <Service />
 
