@@ -6,10 +6,7 @@ class SignUp extends React.Component {
         return (
             <>
 
-
-            </>
+            <>
         )
     }
 }
-
-export default SignUp
