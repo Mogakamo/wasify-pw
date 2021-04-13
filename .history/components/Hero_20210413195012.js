@@ -8,8 +8,7 @@ const Hero = () => {
   <div className="min-h-screen hero-image bg-right-bottom bg-cover flex" style={{backgroundImage: 'url(https://source.unsplash.com/random'}}>
     <div className="relative container mx-auto p-4 flex items-end z-10">
       <div>
-        
-      </div>
+              </div>
     </div>
   </div>
 </section>

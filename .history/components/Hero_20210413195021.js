@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative container mx-auto p-4 flex items-end z-10">
       <div>
         
-      </div>
+       </div>
     </div>
   </div>
 </section>
