@@ -2,7 +2,7 @@
 import React from 'react'
 import Head from 'next/head'
 import SignUpForm from '../components/SignUp-Form'
-import Navbar from '../components/NavBar'
+import Navbar from
 
 class SignUp extends React.Component {
     render() {
@@ -13,8 +13,6 @@ class SignUp extends React.Component {
                     <title>Sign Up</title>
                 </Head>
             </div>
-
-            <Navbar />
 
             <SignUpForm />
 

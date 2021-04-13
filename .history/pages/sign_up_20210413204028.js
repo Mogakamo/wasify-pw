@@ -13,8 +13,7 @@ class SignUp extends React.Component {
                     <title>Sign Up</title>
                 </Head>
             </div>
-
-            <Navbar />
+            
 
             <SignUpForm />
 
