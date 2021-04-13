@@ -11,7 +11,7 @@ import NavBar from './NavBar'
 import Service from './Services'
 import Testimonials from './Testimonials'
 import CallToAction from './CallToAction'
-import Feature from './Feature'
+import 
 
 //Layout
 const Layout = () => {
