@@ -21,7 +21,7 @@ const Layout = () => {
 
         <Service />
 
-        {/**<Testimonials />*/}
+        {<Testimonials />}
 
         <Footer />
         </>
