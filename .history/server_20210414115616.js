@@ -16,8 +16,4 @@ app.prepare().then(_ => {
             handle(req, res)
         }
     })
-    server.listen(PORT, err => {
-        if (err) throw err
-        console.log(`> App running on port ${PORT}`)
-    })
 })

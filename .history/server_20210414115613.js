@@ -13,11 +13,7 @@ app.prepare().then(_ => {
         if (req.url === '/sw.js') {
             app.serveStatic(req, res, path.resolve('./static/sw.js'))
         } else {
-            handle(req, res)
+            handle
         }
-    })
-    server.listen(PORT, err => {
-        if (err) throw err
-        console.log(`> App running on port ${PORT}`)
     })
 })

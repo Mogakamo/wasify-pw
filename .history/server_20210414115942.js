@@ -18,6 +18,6 @@ app.prepare().then(_ => {
     })
     server.listen(PORT, err => {
         if (err) throw err
-        console.log(`> App running on port ${PORT}`)
+        console.log(`> App running on porttttttttttt $`)
     })
 })

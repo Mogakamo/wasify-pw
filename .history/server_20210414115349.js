@@ -10,14 +10,10 @@ const PORT = process.env.PORT || 3000
 
 app.prepare().then(_ => {
     const server = createServer((req, res) => {
-        if (req.url === '/sw.js') {
-            app.serveStatic(req, res, path.resolve('./static/sw.js'))
+        if (condition) {
+            
         } else {
-            handle(req, res)
+            
         }
-    })
-    server.listen(PORT, err => {
-        if (err) throw err
-        console.log(`> App running on port ${PORT}`)
     })
 })
