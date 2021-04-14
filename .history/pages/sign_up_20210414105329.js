@@ -21,7 +21,7 @@ class SignUp extends React.Component {
             <br /><br />
 
             <Footer />
-          </div>
+
             </>
         )
     }

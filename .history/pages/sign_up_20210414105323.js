@@ -13,7 +13,7 @@ class SignUp extends React.Component {
                     <title>Sign Up</title>
                 </Head>
             </div>
-          <div>
+            
             <Navbar />
             <br /><br />
 
@@ -21,7 +21,7 @@ class SignUp extends React.Component {
             <br /><br />
 
             <Footer />
-          </div>
+
             </>
         )
     }
