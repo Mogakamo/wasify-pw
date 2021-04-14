@@ -1,7 +1,7 @@
 //service workers
-if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+if (typeof window !== 'undefined' && 'serviceWorker’ in navigator) {
     navigator.serviceWorker
-        .register(‘/s)
+        .register(‘/sw.js’)
             .then(function (reg) {
                 console.log(‘Service worker registered‘);
             })
