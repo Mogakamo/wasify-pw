@@ -43,10 +43,6 @@ const validate = (values) => {
     } else if(values.Vpassword !== values.password) {
         errors.Vpassword = "Passwords don't match 😟";
     } else {
-        errors.Vpassword = "Passwords match 👏";
+        errors.Vpassword = "Passwords match 👏"
     }
-
-    return errors;
 }
-
-export default validate

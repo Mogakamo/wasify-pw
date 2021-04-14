@@ -28,25 +28,5 @@ const validate = (values) => {
         errors.email = "Invalid email address!!";
     } 
 
-    /**validating passwords */
-    if (!values.password) {
-        errors.password = "Password is required";
-    } else if(values.password.length <= 8) {
-        errors.password = "Password length is weak 😩";
-    } else {
-        errors.password = "Password strength is ok 💪";
-    }
-
-    /**validating password verification with the initial one */
-    if (!values.Vpassword) {
-        errors.Vpassword = "Invalid password verification";
-    } else if(values.Vpassword !== values.password) {
-        errors.Vpassword = "Passwords don't match 😟";
-    } else {
-        errors.Vpassword = "Passwords match 👏";
-    }
-
-    return errors;
+    /** */
 }
-
-export default validate
