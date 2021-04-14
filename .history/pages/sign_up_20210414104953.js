@@ -3,7 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import SignUpForm from '../components/SignUp-Form'
 import Navbar from '../components/NavBar'
-import  Footer from '../components/Footer'
+
 class SignUp extends React.Component {
     render() {
         return (
@@ -15,12 +15,10 @@ class SignUp extends React.Component {
             </div>
 
             <Navbar />
-            <br /><br />
 
             <SignUpForm />
-            <br /><br />
 
-            <Footer />
+            <>
 
             </>
         )

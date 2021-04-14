@@ -15,10 +15,9 @@ class SignUp extends React.Component {
             </div>
 
             <Navbar />
-            <br /><br />
+            <>
 
             <SignUpForm />
-            <br /><br />
 
             <Footer />
 

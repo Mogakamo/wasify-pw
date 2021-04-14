@@ -18,7 +18,7 @@ class SignUp extends React.Component {
             <br /><br />
 
             <SignUpForm />
-            <br /><br />
+            <><>
 
             <Footer />
 
