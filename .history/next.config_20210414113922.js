@@ -23,15 +23,8 @@ module.exports = {
                 filepath: path.resolve('./static/sw.js'),
                 staticFileGlobs: [
                     'static/**/*'
-                ],
-                minify: true,
-                staticFileGlobsIgnorePatterns: [/\.next\//],
-                runtimeCaching: [{
-                    handler: 'fastest',
-                    urlPattern: /^http.*/
-                }]
+                ]
             }))
         }
-        return config
     }
 };

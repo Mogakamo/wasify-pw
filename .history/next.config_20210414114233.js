@@ -28,10 +28,9 @@ module.exports = {
                 staticFileGlobsIgnorePatterns: [/\.next\//],
                 runtimeCaching: [{
                     handler: 'fastest',
-                    urlPattern: /^http.*/
+                    url
                 }]
             }))
         }
-        return config
     }
 };

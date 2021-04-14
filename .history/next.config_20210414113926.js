@@ -24,14 +24,8 @@ module.exports = {
                 staticFileGlobs: [
                     'static/**/*'
                 ],
-                minify: true,
-                staticFileGlobsIgnorePatterns: [/\.next\//],
-                runtimeCaching: [{
-                    handler: 'fastest',
-                    urlPattern: /^http.*/
-                }]
+                
             }))
         }
-        return config
     }
 };

@@ -22,16 +22,9 @@ module.exports = {
                 cacheId: 'test-lighthouse',
                 filepath: path.resolve('./static/sw.js'),
                 staticFileGlobs: [
-                    'static/**/*'
-                ],
-                minify: true,
-                staticFileGlobsIgnorePatterns: [/\.next\//],
-                runtimeCaching: [{
-                    handler: 'fastest',
-                    urlPattern: /^http.*/
-                }]
+                    'static/**/'
+                ]
             }))
         }
-        return config
     }
 };

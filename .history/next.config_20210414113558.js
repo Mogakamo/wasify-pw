@@ -18,20 +18,7 @@ module.exports = {
             return entry;
         })
         if (!dev) {
-            config.plugins.push(new SWPrecacheWebpackPlugin({
-                cacheId: 'test-lighthouse',
-                filepath: path.resolve('./static/sw.js'),
-                staticFileGlobs: [
-                    'static/**/*'
-                ],
-                minify: true,
-                staticFileGlobsIgnorePatterns: [/\.next\//],
-                runtimeCaching: [{
-                    handler: 'fastest',
-                    urlPattern: /^http.*/
-                }]
-            }))
+            config.plugins.push(new SWPrecacheWebpackPlugin({}))
         }
-        return config
     }
 };
