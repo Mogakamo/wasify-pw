@@ -1,6 +1,6 @@
 //service workers
 if (
-  typeof window !== ‘undefined’ && ‘serviceWorker’ in navigator
+    typeof window !== ‘undefined’ && ‘serviceWorker’ in navigator
 ) {
     navigator.serviceWorker
         .register(‘/sw.js’)
