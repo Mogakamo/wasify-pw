@@ -76,10 +76,7 @@ const SignUpForm = () => {
               placeholder="Confirm Password"
               {...formik.getFieldProps("Vpassword")}
             />
-             {formik.touched.Vpassword && formik.errors.Vpassword ? (
-              <div>{formik.errors.Vpassword}</div>
-            ) : null}
-
+            
             <button
               type="submit"
               className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-green-dark focus:outline-none my-1"

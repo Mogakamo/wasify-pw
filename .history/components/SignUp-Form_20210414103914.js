@@ -76,7 +76,7 @@ const SignUpForm = () => {
               placeholder="Confirm Password"
               {...formik.getFieldProps("Vpassword")}
             />
-             {formik.touched.Vpassword && formik.errors.Vpassword ? (
+             {formik.touched.Vpassword && formik.errors. ? (
               <div>{formik.errors.Vpassword}</div>
             ) : null}
 

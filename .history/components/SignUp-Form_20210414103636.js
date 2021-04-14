@@ -42,9 +42,13 @@ const SignUpForm = () => {
               placeholder="Last Name"
               {...formik.getFieldProps("lastName")}
             />
-             {formik.touched.lastName && formik.errors.lastName ? (
-              <div>{formik.errors.lastName}</div>
-            ) : null}
+             {
+                 formik.touched.FIELD - NAME && formik.errors.FIELD - NAME ? ( <
+                     div > {
+                         formik.errors.FIELD - NAME
+                     } < /div>
+                 ) : null
+             }
 
 
             <input
@@ -54,9 +58,6 @@ const SignUpForm = () => {
               placeholder="Email"
               {...formik.getFieldProps("email")}
             />
-             {formik.touched.email && formik.errors.email ? (
-              <div>{formik.errors.email}</div>
-            ) : null}
 
             <input
               type="password"
@@ -65,9 +66,6 @@ const SignUpForm = () => {
               placeholder="Password (5 characters and above)"
               {...formik.getFieldProps("password")}
             />    
-             {formik.touched.password && formik.errors.password ? (
-              <div>{formik.errors.password}</div>
-            ) : null}
 
             <input
               type="password"
@@ -76,9 +74,6 @@ const SignUpForm = () => {
               placeholder="Confirm Password"
               {...formik.getFieldProps("Vpassword")}
             />
-             {formik.touched.Vpassword && formik.errors.Vpassword ? (
-              <div>{formik.errors.Vpassword}</div>
-            ) : null}
 
             <button
               type="submit"
