@@ -9,10 +9,7 @@ const SignUpForm = () => {
             lastName: "",
             email: "",
             password: "",
-            Vpassword: "",
-        },
-        onSubmit: () => {
-            console.log();
+            
         }
     })
     

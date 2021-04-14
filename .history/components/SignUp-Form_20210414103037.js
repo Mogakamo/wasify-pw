@@ -6,13 +6,7 @@ const SignUpForm = () => {
     const formik = useFormik({
         initialValues: {
             firstName: "",
-            lastName: "",
-            email: "",
-            password: "",
-            Vpassword: "",
-        },
-        onSubmit: () => {
-            console.log();
+            lastName: ""
         }
     })
     

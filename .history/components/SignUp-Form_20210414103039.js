@@ -7,12 +7,7 @@ const SignUpForm = () => {
         initialValues: {
             firstName: "",
             lastName: "",
-            email: "",
-            password: "",
-            Vpassword: "",
-        },
-        onSubmit: () => {
-            console.log();
+            
         }
     })
     

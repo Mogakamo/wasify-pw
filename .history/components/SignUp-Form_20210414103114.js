@@ -12,7 +12,7 @@ const SignUpForm = () => {
             Vpassword: "",
         },
         onSubmit: () => {
-            console.log();
+            console.log()
         }
     })
     
