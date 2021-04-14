@@ -6,6 +6,6 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
                 console.log('Service worker registered');
             })
             .catch(function (e) {
-                console.error('Error during worker registration:', e);
+                console.error(Error during worker registration:', e);
             });
         }
