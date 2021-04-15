@@ -16,10 +16,7 @@ const ResetPasswordTokenPage = ({ valid, token }) => {
 
         const res = await fetch('/api/user/password/reset', {
             method: 'PUT',
-            headers: { 'ContentType': 'application/json' },
-            body: JSON.stringify(body),
+            headers: { }
         })
-
-        if (res,status === 200) Router.replace('/');
     }
 }

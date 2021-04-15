@@ -19,7 +19,5 @@ const ResetPasswordTokenPage = ({ valid, token }) => {
             headers: { 'ContentType': 'application/json' },
             body: JSON.stringify(body),
         })
-
-        if (res,status === 200) Router.replace('/');
     }
 }

@@ -10,16 +10,7 @@ const ResetPasswordTokenPage = ({ valid, token }) => {
     async function handleSubmit(event) {
         event.preventDefault();
         const body = {
-            password: event.currentTarget.password.value,
-            token,
-        };
-
-        const res = await fetch('/api/user/password/reset', {
-            method: 'PUT',
-            headers: { 'ContentType': 'application/json' },
-            body: JSON.stringify(body),
-        })
-
-        if (res,status === 200) Router.replace('/');
+            password: event
+        }
     }
 }
