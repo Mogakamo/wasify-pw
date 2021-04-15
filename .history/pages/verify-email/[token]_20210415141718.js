@@ -5,3 +5,4 @@ import { all } from '@/middlewares/index'
 import { updateUserById, findAndDeleteTokenByIdAndType } from '@/db/index'
 
 
+export default 
