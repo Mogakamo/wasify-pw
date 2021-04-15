@@ -31,7 +31,7 @@ const ForgetPasswordPage = () => {
          </Head>
 
         <h2>Forgot password</h2>
-        {msg.message ? <p style={{ color: msg.isError ? 'red': '#0070f3', textAlign: 'center'}}>{msg.message}</p> : null}    
+        {msg.message ? <p style={{ color: msg.isError ? 'red': '#0070f3', textAlign: 'center'}}>{</p>}    
 
 
         </>
