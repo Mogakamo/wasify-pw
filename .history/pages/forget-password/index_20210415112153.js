@@ -23,18 +23,6 @@ const ForgetPasswordPage = () => {
             setMsg({ message: await res.text(), isError: true })
         }
     }
-
-    return (
-        <>
-         <Head>
-             <title>Forgot Password</title>
-         </Head>
-
-        <h2>Forgot password</h2>    
-        
-
-        </>
-    )
 }
 
 export default ForgetPasswordPage

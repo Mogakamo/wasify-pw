@@ -27,12 +27,8 @@ const ForgetPasswordPage = () => {
     return (
         <>
          <Head>
-             <title>Forgot Password</title>
+             <title></title>
          </Head>
-
-        <h2>Forgot password</h2>    
-        
-
         </>
     )
 }

@@ -31,7 +31,6 @@ const ForgetPasswordPage = () => {
          </Head>
 
         <h2>Forgot password</h2>    
-        
 
         </>
     )

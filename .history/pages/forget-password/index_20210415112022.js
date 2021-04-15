@@ -14,27 +14,9 @@ const ForgetPasswordPage = () => {
         const res = await fetch('/api/user/password/reset', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(body),
+            body: JSON.stringify(b)
         })
-
-        if (res.status === 200 ) {
-            setMsg({ message: 'An email has been sent to your mailbox'})
-        } else {
-            setMsg({ message: await res.text(), isError: true })
-        }
     }
-
-    return (
-        <>
-         <Head>
-             <title>Forgot Password</title>
-         </Head>
-
-        <h2>Forgot password</h2>    
-        
-
-        </>
-    )
 }
 
 export default ForgetPasswordPage

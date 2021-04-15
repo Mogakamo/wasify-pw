@@ -18,23 +18,9 @@ const ForgetPasswordPage = () => {
         })
 
         if (res.status === 200 ) {
-            setMsg({ message: 'An email has been sent to your mailbox'})
-        } else {
-            setMsg({ message: await res.text(), isError: true })
+            setMsg({ messa})
         }
     }
-
-    return (
-        <>
-         <Head>
-             <title>Forgot Password</title>
-         </Head>
-
-        <h2>Forgot password</h2>    
-        
-
-        </>
-    )
 }
 
 export default ForgetPasswordPage
