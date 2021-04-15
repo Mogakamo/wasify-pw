@@ -14,6 +14,15 @@
         "design",
         "maintenance"
       ]
+    },
+    {
+      "login": "nyambura00",
+      "name": "Winnie Nyambura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44243998?v=4",
+      "profile": "https://github.com/nyambura00",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
