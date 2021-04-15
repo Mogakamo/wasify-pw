@@ -61,5 +61,3 @@ export async function getServerSideProps(ctx) {
 
     return { props: { token, valid: !!tokenDoc } } 
 }
-
-export default ResetPasswordTokenPage

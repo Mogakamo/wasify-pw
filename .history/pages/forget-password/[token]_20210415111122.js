@@ -58,8 +58,5 @@ export async function getServerSideProps(ctx) {
     const { token } = ctx.query;
 
     const tokenDoc = await findTokenByIdAndType(ctx.req.db, ctx.query.token, 'passwordReset');
-
-    return { props: { token, valid: !!tokenDoc } } 
+    
 }
-
-export default ResetPasswordTokenPage

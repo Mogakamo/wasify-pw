@@ -37,29 +37,12 @@ const ResetPasswordTokenPage = ({ valid, token }) => {
                     <input 
                         name="password"
                         type="password"
-                        placeholder="New Password"
+                        place
                     />
                 </div>
-                <button type="submit">Set new password</button>
               </form>
              </>
-         ) : (
-             <p>This link may have expired</p>
          )}
         </>
     )
 }
-
-
-export async function getServerSideProps(ctx) {
-    const handler = nc();
-    handler.use(database);
-    await handler.run(ctx.req, ctx.res)
-    const { token } = ctx.query;
-
-    const tokenDoc = await findTokenByIdAndType(ctx.req.db, ctx.query.token, 'passwordReset');
-
-    return { props: { token, valid: !!tokenDoc } } 
-}
-
-export default ResetPasswordTokenPage
