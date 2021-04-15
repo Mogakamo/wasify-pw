@@ -6,11 +6,5 @@ import { updateUserById, findAndDeleteTokenByIdAndType } from '@/db/index'
 
 
 const EmailVerifyPage = ({ success }) {
-    return (
-        <>
-          
-        </>
-    )
+    return 
 }
-
-export default EmailVerifyPage

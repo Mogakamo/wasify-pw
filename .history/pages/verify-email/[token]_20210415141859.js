@@ -8,7 +8,7 @@ import { updateUserById, findAndDeleteTokenByIdAndType } from '@/db/index'
 const EmailVerifyPage = ({ success }) {
     return (
         <>
-          
+
         </>
     )
 }
