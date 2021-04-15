@@ -20,7 +20,7 @@ const UserPage = ({ user }) => {
     const isCurrentUser = currentUser?._id === user.id;
     return (
         <>
-        
+
         </>
     )
 } 

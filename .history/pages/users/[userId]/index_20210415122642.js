@@ -12,15 +12,5 @@ import { defaultProfilePicture } from '@/lib/default';
 const UserPage = ({ user }) => {
     if (!user) return <Error statusCode={404} />
 
-    const {
-        name, email, profilePicture, _id
-    } = user || {};
-    
-    const [currentUser] = useCurrentUser();
-    const isCurrentUser = currentUser?._id === user.id;
-    return (
-        <>
-        
-        </>
-    )
+    const 
 } 

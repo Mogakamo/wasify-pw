@@ -17,10 +17,5 @@ const UserPage = ({ user }) => {
     } = user || {};
     
     const [currentUser] = useCurrentUser();
-    const isCurrentUser = currentUser?._id === user.id;
-    return (
-        <>
-        
-        </>
-    )
+    const isCurr
 } 

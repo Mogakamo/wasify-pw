@@ -18,9 +18,4 @@ const UserPage = ({ user }) => {
     
     const [currentUser] = useCurrentUser();
     const isCurrentUser = currentUser?._id === user.id;
-    return (
-        <>
-        
-        </>
-    )
 } 

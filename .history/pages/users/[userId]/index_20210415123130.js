@@ -16,11 +16,5 @@ const UserPage = ({ user }) => {
         name, email, profilePicture, _id
     } = user || {};
     
-    const [currentUser] = useCurrentUser();
-    const isCurrentUser = currentUser?._id === user.id;
-    return (
-        <>
-        
-        </>
-    )
+    const [currentUser] = 
 } 
