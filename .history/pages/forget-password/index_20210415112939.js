@@ -35,13 +35,12 @@ const ForgetPasswordPage = () => {
         <form onSubmit={this.handleSubmit}>
           <p>Do not worry. Please enter your email address below</p>
           <label htmlFor="email">
-              <input 
-                 id="email"
-                 type="email"
-                 placeholder="Email address"
-              />
+              < input
+              id = "email"
+              type = "email"
+              placeholder = "Email address" /
+                  >
           </label>
-          <button type="submit">Submit</button>
         </form>
         </>
     )

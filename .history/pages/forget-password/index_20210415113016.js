@@ -41,7 +41,7 @@ const ForgetPasswordPage = () => {
                  placeholder="Email address"
               />
           </label>
-          <button type="submit">Submit</button>
+          <button type=""></button>
         </form>
         </>
     )

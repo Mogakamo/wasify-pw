@@ -34,14 +34,9 @@ const ForgetPasswordPage = () => {
         {msg.message ? <p style={{ color: msg.isError ? 'red': '#0070f3', textAlign: 'center'}}>{msg.message}</p> : null}    
         <form onSubmit={this.handleSubmit}>
           <p>Do not worry. Please enter your email address below</p>
-          <label htmlFor="email">
-              <input 
-                 id="email"
-                 type="email"
-                 placeholder="Email address"
-              />
-          </label>
-          <button type="submit">Submit</button>
+          <input 
+              
+          />
         </form>
         </>
     )

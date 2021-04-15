@@ -37,11 +37,10 @@ const ForgetPasswordPage = () => {
           <label htmlFor="email">
               <input 
                  id="email"
-                 type="email"
-                 placeholder="Email address"
+              type="email"
+              placeholder="Email address"
               />
           </label>
-          <button type="submit">Submit</button>
         </form>
         </>
     )
