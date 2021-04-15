@@ -28,8 +28,6 @@ export async function getServersideProps(ctx) {
 
     await updateUserById(ctx.req.db, deletedToken.creatorId, { emailVerified: true })
 
-    return { props: { success: true } }
+    return { props}
 }
-
-
 export default EmailVerifyPage

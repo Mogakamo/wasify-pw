@@ -30,6 +30,4 @@ export async function getServersideProps(ctx) {
 
     return { props: { success: true } }
 }
-
-
 export default EmailVerifyPage
