@@ -45,30 +45,52 @@ const ValidatedLoginForm = () => (
       } = props;
 
       return (
-        <div>
-          <h1>Validated Login Form</h1>
+        <div >
 	      <form onSubmit={handleSubmit}>
-
-      <label htmlFor="email">Email</label>
+    <div className="bg-grey-lighter min-h-screen flex flex-col">
+      <div className="container-fluid max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+	<div className="bg-white px-6 py-8 rounded shadow-md text-black w-full">      
+	<h1 className="mb-8 text-3xl text-center">Login</h1>      
+     
       <input
         id="email"
         name="email"
         type="text"
+	className="block border border-grey-light w-full p-3 rounded mb-4"
         placeholder="Enter your email"
+	value={values.email}
+	onChange={handleChange}
+	onBlur={handleBlur}
+	className={errors.email && touched.email && "error"}
       />
+	      {errors.email && touched.email && (
+		<div className="input-feedback">{errors.email}</div>
+	      )}
 
-      <label htmlFor="password">Password</label>
+     
       <input
         id="password"
         name="password"
         type="password"
+	className="block border border-grey-light w-full p-3 rounded mb-4"
         placeholder="Enter your password"
+	value={values.password}
+	onChange={handleChange}
+	onBlur={handleBlur}
+	className={errors.password && touched.password && "error"}
       />
+	      {errors.password && touched.password && (
+		<div className="input-feedback">{errors.password}</div>
+	      )}
 
-      <button type="submit" disabled={isSubmitting}>
+      <button type="submit" disabled={isSubmitting}
+		className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-green-dark focus:outline-none my-1"
+	      >
         Login
       </button>
-
+	</div>
+       </div>
+      </div>
     </form>
         </div>
       );
