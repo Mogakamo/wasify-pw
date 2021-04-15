@@ -57,5 +57,3 @@ export async function getServerSideProps(context) {
     if(!user) context.res.statusCode = 404
     return { props: { user } }
 }
-
-export default UserPage

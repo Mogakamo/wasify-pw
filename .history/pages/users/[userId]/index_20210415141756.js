@@ -58,4 +58,4 @@ export async function getServerSideProps(context) {
     return { props: { user } }
 }
 
-export default UserPage
+export default User
