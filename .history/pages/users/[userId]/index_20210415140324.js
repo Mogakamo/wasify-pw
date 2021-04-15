@@ -21,11 +21,8 @@ const UserPage = ({ user }) => {
     return (
         <>
             <Head>
-                <title>{name}</title>
+                <ti
             </Head>
-            <div>
-                
-            </div>
         </>
     )
 } 

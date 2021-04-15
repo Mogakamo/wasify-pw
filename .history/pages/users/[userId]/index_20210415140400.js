@@ -23,9 +23,6 @@ const UserPage = ({ user }) => {
             <Head>
                 <title>{name}</title>
             </Head>
-            <div>
-                
-            </div>
         </>
     )
 } 

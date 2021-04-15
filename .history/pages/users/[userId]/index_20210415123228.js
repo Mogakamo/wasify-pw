@@ -20,12 +20,7 @@ const UserPage = ({ user }) => {
     const isCurrentUser = currentUser?._id === user.id;
     return (
         <>
-            <Head>
-                <title>{name}</title>
-            </Head>
-            <div>
-                
-            </div>
+        
         </>
     )
 } 
