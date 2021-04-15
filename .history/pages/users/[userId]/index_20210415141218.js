@@ -54,6 +54,4 @@ const UserPage = ({ user }) => {
 export async function getServerSideProps(context) {
     await all.run(context.req, context.res)
     const user = extractUser(await findUserById(context.req.db, context.params.userId))
-    if(!user) context.res.statusCode = 404
-    return { props: { user } }
 }
