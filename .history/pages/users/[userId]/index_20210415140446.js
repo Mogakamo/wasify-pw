@@ -24,28 +24,7 @@ const UserPage = ({ user }) => {
                 <title>{name}</title>
             </Head>
             <div>
-                <img src={profilePicture || defaultProfilePicture(_id)} width="256" height="256" alt={name} />
-        <section>
-          <div>
-            <h2>{name}</h2>
-            {isCurrentUser && (
-            <Link href="/settings">
-              <button type="button">Edit</button>
-            </Link>
-            )}
-          </div>
-          Bio
-          <p>{bio}</p>
-          Email
-          <p>
-            {email}
-          </p>
-        </section>
-      </div>
-      <div>
-        <h3>My posts</h3>
-        <Posts creatorId={user._id} />
-     
+                
             </div>
         </>
     )
