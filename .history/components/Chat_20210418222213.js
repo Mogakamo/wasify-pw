@@ -25,6 +25,6 @@ const ChatComponent = () => {
   }
 
   const handleFormSubmission = (event) => {
-    
+
   }
 };
