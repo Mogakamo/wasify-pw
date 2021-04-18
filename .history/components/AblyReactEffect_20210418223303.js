@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import Ably from 'ably/promises'
+import { useState }
 
 export function useChannel(channelName, callbackOnMessage) {
   const channel = ably.channels.get(channelName);
