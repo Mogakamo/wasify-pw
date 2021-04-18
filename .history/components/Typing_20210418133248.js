@@ -13,7 +13,7 @@ class Typing extends React.Component {
 		return(
 			<>
 			  <span 
-			  	
+			  
 			  />
 			</>
 		)

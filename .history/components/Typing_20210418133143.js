@@ -6,18 +6,7 @@ class Typing extends React.Component {
 
 	}
 
-	componentWillUnmount() {
-
-	}
-	render() {
-		return(
-			<>
-			  <span 
-			  	
-			  />
-			</>
-		)
-	}
+	compo
 }
 
 export default Typing 

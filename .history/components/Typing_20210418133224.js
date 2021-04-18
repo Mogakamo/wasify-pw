@@ -12,10 +12,8 @@ class Typing extends React.Component {
 	render() {
 		return(
 			<>
-			  <span 
-			  	
-			  />
-			</>
+
+			<>
 		)
 	}
 }
