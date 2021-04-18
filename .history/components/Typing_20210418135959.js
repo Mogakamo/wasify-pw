@@ -1,6 +1,6 @@
 import React from 'react'
 import words from './words'
-import Typed from 'typed.js'
+import Typed fr
 
 class Typing extends React.Component {
 	componentDidMount() {
