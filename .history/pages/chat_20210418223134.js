@@ -1,11 +1,7 @@
 import ChatComponent from '../components/Chat'
 
 function Chat(params) {
-    return (
-        <>
-
-        </>
-    )
+    r
 }
 
 export default Chat
