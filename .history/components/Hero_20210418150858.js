@@ -111,10 +111,10 @@ function Hero() {
                             <h2>Get Prodify and be the first to market</h2>
                             <h2> with an integrated product that you love</h2>
                         </div>
-                        <button className="hover:opacity-90 text-lg rounded-full xl:text-3xl xl:w-10/12 mt-4 xl:mt-11 f-f-r py-6 bg-indigo-700 text-white text-bold">Get Started</button>
+                        <button className="hover:opacity-90 text-xl w-full xl:text-3xl xl:w-10/12 mt-4 xl:mt-11 f-f-r py-6 bg-indigo-700 text-white text-bold">Let's Build</button>
                     </div>
                     <div className>
-                        <img className="w-full lg:-ml-16 xl:-ml-44" src="https://source.unsplash.com/photos/mY3_bvR74fI" alt />
+                        <img className="w-full lg:-ml-16 xl:-ml-44" src="https://cdn.tuk.dev/assets/templates/prodify/desktop.png" alt />
                     </div>
                 </div>
             </div>
