@@ -3,8 +3,6 @@
 const Feature = () => {
   return (
     <>
-
-    </>
   )
 }
 
