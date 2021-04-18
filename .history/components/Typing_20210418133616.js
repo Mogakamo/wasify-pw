@@ -3,9 +3,7 @@ import words from './words'
 
 class Typing extends React.Component {
 	componentDidMount() {
-		const options = {
-			
-		}
+		const options
 	}
 
 	componentWillUnmount() {
