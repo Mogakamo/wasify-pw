@@ -3,20 +3,17 @@ import words from './words'
 
 class Typing extends React.Component {
 	componentDidMount() {
-		
+
 	}
 
 	componentWillUnmount() {
-		this.typed.destroy()
+
 	}
 	render() {
 		return(
 			<>
 			  <span 
-			  	style={{ whiteSpace: "pre" }}
-				ref{(el) => {
-					this.el = el;
-				}}
+			  	style={{}}
 			  />
 			</>
 		)
