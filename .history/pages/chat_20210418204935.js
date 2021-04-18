@@ -9,4 +9,4 @@ const Chatt = () => {
         )
 }
 
-export default Chatt
+export default Chat
