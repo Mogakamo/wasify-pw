@@ -6,7 +6,7 @@ import Typing from './Typing'
 const Hero = () => {
 
      
-
+function Index() {
     const [show, setShow] = useState(false);
     return (
         <>
@@ -164,6 +164,11 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+        </>
+    );
+}
+
+export default Index;
 
 
       </>

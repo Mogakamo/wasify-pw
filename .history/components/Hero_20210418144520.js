@@ -1,12 +1,12 @@
 /** Landing section and the top navigation */
-import React, {  useState } from "react";
+import React from 'react'
 import Typing from './Typing'
 
 
 const Hero = () => {
-
-     
-
+    return(
+     import React, { useState } from "react";
+function Index() {
     const [show, setShow] = useState(false);
     return (
         <>
@@ -164,6 +164,11 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+        </>
+    );
+}
+
+export default Index;
 
 
       </>

@@ -164,6 +164,11 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+        </>
+    );
+}
+
+export default Index;
 
 
       </>
