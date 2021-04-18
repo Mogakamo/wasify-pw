@@ -5,4 +5,3 @@ class Typing extends React.Component {
 
 }
 
-export default Typing 
