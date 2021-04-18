@@ -45,40 +45,4 @@ const ChatComponent = () => {
       </span>
     );
   });
-
-
-  return (
-    <>
-      <div className={styles.chatHolder}>
-        <div className={styles.chatText}>
-          {messages}
-          <div
-            ref={(element) => {
-              messageEnd = element;
-            }}
-          ></div>{" "}
-          // empty element to control scroll to bottom
-        </div>
-        <form onSubmit={handleFormSubmission} className={styles.form}>
-          <textarea
-            ref={(element) => {
-              inputBox = element;
-            }}
-            value={messageText}
-            placeholder="Type a message..."
-            onChange={(e) => setMessageText(e.target.value)}
-            onKeyPress={handleKeyPress}
-            className={styles.textarea}
-          ></textarea>
-          <button
-            type="submit"
-            className={styles.button}
-            disabled={messageTextIsEmpty}
-          >
-            Send
-          </button>
-        </form>
-      </div>
-    </>
-  );
 };
