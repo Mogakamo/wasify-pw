@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function Pricing() {
+function Index() {
     return (
         <div className="container mx-auto pt-16">
             <div className="w-4/5 mx-auto pb-12">
