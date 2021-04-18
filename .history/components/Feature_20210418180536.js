@@ -2,8 +2,7 @@
 
 const Feature = () => {
   return ( <
-    >
-    {
+    > {
       /* Section 1 */
     } <
     section className = "py-20 bg-white" >
@@ -206,7 +205,8 @@ const Feature = () => {
     div > <
     /div> < /
     div > <
-    /section> < / >
+    /section> < /
+    >
   )
 }
 
