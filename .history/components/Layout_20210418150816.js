@@ -21,7 +21,7 @@ const Layout = () => {
     return(
         <>
 
-        <Hero /><br /><br /><br />
+        <Hero /><br /><br><br />
 
         <Feature />
 
