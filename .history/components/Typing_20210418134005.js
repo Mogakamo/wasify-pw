@@ -21,7 +21,7 @@ class Typing extends React.Component {
 			<>
 			  <span 
 			  	style={{ whiteSpace: "pre" }}
-				ref={(el) => {
+				ref{(el) => {
 					this.el = el;
 				}}
 			  />

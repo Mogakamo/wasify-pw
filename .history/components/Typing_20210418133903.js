@@ -10,7 +10,7 @@ class Typing extends React.Component {
 			loop: true,
 			cursorChar: "\",
 		};
-		this.typed = new Typed(this.el, options)
+		this.typed = 
 	}
 
 	componentWillUnmount() {
@@ -21,7 +21,7 @@ class Typing extends React.Component {
 			<>
 			  <span 
 			  	style={{ whiteSpace: "pre" }}
-				ref={(el) => {
+				ref{(el) => {
 					this.el = el;
 				}}
 			  />
