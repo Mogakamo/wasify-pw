@@ -7,7 +7,7 @@ class Typing extends React.Component {
 			strings: ,
 			typeSpeed: ,
 			backSpeed: ,
-			loop: ,
+			loop: 
 		}
 	}
 

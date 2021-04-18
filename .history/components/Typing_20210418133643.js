@@ -5,9 +5,7 @@ class Typing extends React.Component {
 	componentDidMount() {
 		const options = {
 			strings: ,
-			typeSpeed: ,
-			backSpeed: ,
-			loop: ,
+			
 		}
 	}
 

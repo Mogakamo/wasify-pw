@@ -6,8 +6,7 @@ class Typing extends React.Component {
 		const options = {
 			strings: ,
 			typeSpeed: ,
-			backSpeed: ,
-			loop: ,
+			
 		}
 	}
 
