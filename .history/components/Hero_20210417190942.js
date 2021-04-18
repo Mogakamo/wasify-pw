@@ -7,7 +7,7 @@ const Hero = () => {
     return(
   <>
   
-  </>
+        </>
     )
 }
 
