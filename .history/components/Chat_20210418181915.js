@@ -4,6 +4,7 @@ class Chat extends React.Component {
     render() {
         return(
             <>
+                <>
 {/* Component Start */}
 <div className="flex flex-col flex-grow w-full max-w-xl bg-white shadow-xl rounded-lg overflow-hidden">
   <div className="flex flex-col flex-grow h-0 p-4 overflow-auto">
