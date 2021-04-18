@@ -9,7 +9,7 @@ class Typing extends React.Component {
 			typeSpeed: 100,
 			backSpeed: 100,
 			loop: true,
-			cursorChar: '/',
+			cursorChar: "",
 		};
 		this.typed = new Typed(this.el, options);
 	}
