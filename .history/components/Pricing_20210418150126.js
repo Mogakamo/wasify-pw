@@ -144,4 +144,4 @@ function Index() {
     );
 }
 
-export default Pricing;
+export default Index;
