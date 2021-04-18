@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "dev": "NODE_OPTIONS='--inspect' next",
     "build": "next build",
     "start": "NODE_ENV=production node server"
@@ -42,6 +41,7 @@
     "react-router-dom": "^5.2.0",
     "react-text-typist": "^1.0.5",
     "swr": "^0.5.5",
+    "typed.js": "^2.0.12",
     "validator": "^13.5.2",
     "yup": "^0.32.9"
   },
