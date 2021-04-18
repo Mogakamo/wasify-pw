@@ -13,7 +13,7 @@ import Testimonials from './Testimonials'
 import CallToAction from './CallToAction'
 import Feature from './Feature'
 import Blog from './Blog'
-import Pricing from './Pricing'
+
 
 
 //Layout
