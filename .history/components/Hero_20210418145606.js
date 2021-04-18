@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-function Hero() {
+function IndexPage() {
     const [menu, setMenu] = useState(false);
     return (
         <>
