@@ -23,6 +23,5 @@ const ChatComponent = () => {
     inputBox.focus();
 
   }
-
   
 };

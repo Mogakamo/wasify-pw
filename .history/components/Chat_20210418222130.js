@@ -21,8 +21,6 @@ const ChatComponent = () => {
                       data: messageText});
     setMessageText("");
     inputBox.focus();
-
+    
   }
-
-  
 };

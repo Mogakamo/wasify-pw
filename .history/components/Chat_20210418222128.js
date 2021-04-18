@@ -20,9 +20,6 @@ const ChatComponent = () => {
     channel.publish({ name: 'chat-message',
                       data: messageText});
     setMessageText("");
-    inputBox.focus();
-
+    inputBox.focus()
   }
-
-  
 };
