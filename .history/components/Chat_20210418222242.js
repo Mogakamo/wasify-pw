@@ -26,7 +26,6 @@ const ChatComponent = () => {
 
   const handleFormSubmission = (event) => {
     event.preventDefault();
-    sendChatMessage(messageText);
-    
+    sendChatMessage(messageText)
   }
 };
