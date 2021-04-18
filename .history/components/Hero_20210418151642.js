@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Typing from './Typing'
+import Typing from 
 
 
 function Hero() {
