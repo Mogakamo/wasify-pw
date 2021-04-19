@@ -25,10 +25,8 @@ const options = {
               )
               const data = await response.json()
               token.jwt = data.jwt
-              token.id = data.user.id
-
+              token.id = data.user
           }
-          return Promise.resolve(token)
       }
   }
 }

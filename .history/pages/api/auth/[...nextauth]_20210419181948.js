@@ -28,7 +28,7 @@ const options = {
               token.id = data.user.id
 
           }
-          return Promise.resolve(token)
+          return Pro
       }
   }
 }
