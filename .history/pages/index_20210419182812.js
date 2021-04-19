@@ -8,11 +8,8 @@ import { getSession, signIn, signOut } from 'next-auth/client'
 export default function Home({ session, }) {
     const signInButtonNode = () => {
       if (session) {
-        return false;
+        return false
       }
-      return (
-        <Layout />
-      )
     }
 
   return (
@@ -23,7 +20,7 @@ export default function Home({ session, }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     </div>
-      
+      <Layout />
     </>
   )
 }

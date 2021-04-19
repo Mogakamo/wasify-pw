@@ -10,9 +10,7 @@ export default function Home({ session, }) {
       if (session) {
         return false;
       }
-      return (
-        <Layout />
-      )
+      return ()
     }
 
   return (
@@ -23,7 +21,7 @@ export default function Home({ session, }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     </div>
-      
+      <Layout />
     </>
   )
 }

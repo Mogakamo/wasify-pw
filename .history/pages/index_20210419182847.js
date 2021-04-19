@@ -11,7 +11,7 @@ export default function Home({ session, }) {
         return false;
       }
       return (
-        <Layout />
+        <>
       )
     }
 
@@ -23,7 +23,7 @@ export default function Home({ session, }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     </div>
-      
+      <Layout />
     </>
   )
 }
