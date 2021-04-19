@@ -5,7 +5,7 @@ import Container from '../components/Loader'
 import { getSession, signIn, signOut } from 'next-auth/client'
 
 
-export default function Home({ session, }) {
+export default function Home({}) {
 
 
   return (
