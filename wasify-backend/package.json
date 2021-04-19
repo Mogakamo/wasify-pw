@@ -11,6 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "3": "^2.1.0",
+    "-": "^0.0.1",
+    "jquery": "1.9.1",
+    "koa": "^2.13.1",
+    "popper.js": "^1.16.1",
     "ssri": "^8.0.1",
     "strapi": "3.5.4",
     "strapi-admin": "3.5.4",
