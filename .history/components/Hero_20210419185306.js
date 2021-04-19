@@ -95,7 +95,7 @@ function Hero() {
                                 </li>
                             </ul>
                           <div>
-                            <Link href="/pages/api/auth/[...nextauth].js">
+                            <Link href>
                             <button className="px-6 py-3 bg-white bg-indigo-700  text-white text-lg font-bold flex items-center justify-center">
                                 Sign In
                                 <svg className="ml-4" xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12" fill="none">
