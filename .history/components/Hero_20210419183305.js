@@ -1,6 +1,5 @@
-import { signIn } from "next-auth/client";
 import React, { useState } from "react";
-import { getSession, signIn, signOut } from 'next-auth/client'
+
 
 
 function Hero() {
@@ -160,7 +159,7 @@ function Hero() {
                       className="px-6 py-3 bg-white bg-indigo-700  text-white text-lg font-bold flex items-center justify-center"
                       onClick={(e) => {
                         e.preventDefault();
-                        signIn();
+                        
                       }}
                     >
                       Sign In

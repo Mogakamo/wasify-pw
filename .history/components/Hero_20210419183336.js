@@ -1,6 +1,6 @@
 import { signIn } from "next-auth/client";
 import React, { useState } from "react";
-import { getSession, signIn, signOut } from 'next-auth/client'
+import { getSession, signIn, sign}
 
 
 function Hero() {
