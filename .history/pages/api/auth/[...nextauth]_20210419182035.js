@@ -29,6 +29,7 @@ const options = {
 
           }
           return Promise.resolve(token)
-      }
-  }
-}
+      },
+  },
+};
+

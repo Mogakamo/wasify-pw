@@ -29,6 +29,11 @@ const options = {
 
           }
           return Promise.resolve(token)
-      }
-  }
-}
+      },
+  },
+};
+
+const Auth = (req, re) => 
+    NextAuth(req, res, options)
+
+export default Auth

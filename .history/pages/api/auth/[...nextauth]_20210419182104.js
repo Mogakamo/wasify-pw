@@ -29,6 +29,10 @@ const options = {
 
           }
           return Promise.resolve(token)
-      }
-  }
-}
+      },
+  },
+};
+
+const Auth = () => 
+    NextAuth(req, res, options)
+
