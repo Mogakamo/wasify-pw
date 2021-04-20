@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+import Lin
 class LoginForm extends React.Component {
     render() {
         return (

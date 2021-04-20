@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 class LoginForm extends React.Component {
     render() {
         return (
@@ -59,7 +59,7 @@ class LoginForm extends React.Component {
                         />
                       </div>
                     </div>
-                    
+                    <div>
                       <Link href="/api/auth/signin">  
                     <button
                       type="submit"
@@ -68,6 +68,7 @@ class LoginForm extends React.Component {
                       <span className="w-full">Submit</span>
                     </button>
                     </Link>
+                    <div>
                   </form>
                   <div className="pt-12 pb-12 text-center">
                     <p>
