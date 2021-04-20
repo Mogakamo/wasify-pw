@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import LoginForm from '../components/loginForm'
+
 const SignIn = () => {
 	return (
 	 <>
@@ -8,8 +8,9 @@ const SignIn = () => {
 		<title>Sign In</title>
 	  </Head>	
           
-	  <LoginForm />
+	  <ValidatedLoginForm />
 
+	  <Footer />	
 	 </>
 	)
 }
