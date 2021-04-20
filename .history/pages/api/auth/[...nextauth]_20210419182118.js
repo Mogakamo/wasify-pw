@@ -33,7 +33,7 @@ const options = {
   },
 };
 
-const Auth = (req, re) => 
+const Auth = (req, res) => 
     NextAuth(req, res, options)
 
 export default Auth
