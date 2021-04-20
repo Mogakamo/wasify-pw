@@ -79,7 +79,7 @@ class LoginForm extends React.Component {
               <div className="w-1/2 shadow-2xl">
                 <img
                   className="hidden object-cover w-full h-screen md:block"
-                  src="https://source.unsplash.com/random"
+                  src="https://source.unsplash."
                 />
               </div>
             </div>
