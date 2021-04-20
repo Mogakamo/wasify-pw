@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import Container from '../components/Loader'
 import { getSession, signIn, signOut } from 'next-auth/client'
-import Home from '../components/HomePage'
+import Home from '../components/'
 
 export default function Home({ session, }) {
     const signInButtonNode = () => {
