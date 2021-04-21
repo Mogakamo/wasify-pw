@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginForm from '../components/LoginForm'
+import ValidatedLoginForm from '../components/ValidatedLoginForm'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import Head from 'next/head'
