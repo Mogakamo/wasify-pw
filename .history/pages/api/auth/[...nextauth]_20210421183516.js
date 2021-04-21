@@ -3,8 +3,7 @@ import Providers from 'next-auth/providers'
 const options = {
     session: {
         jwt: true,
-        maxAge: 30 * 24 * 60 * 60 //30 days
-        
+        maxAge: 30 * 24 * 60 * 
     },
     site: process.env.NEXTAUTH_URL,
     providers: [

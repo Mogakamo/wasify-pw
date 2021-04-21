@@ -1,11 +1,6 @@
 import NextAuth from 'next-auth'
 import Providers from 'next-auth/providers'
 const options = {
-    session: {
-        jwt: true,
-        maxAge: 30 * 24 * 60 * 60 //30 days
-        
-    },
     site: process.env.NEXTAUTH_URL,
     providers: [
         Providers.Email({
