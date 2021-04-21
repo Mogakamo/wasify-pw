@@ -25,7 +25,7 @@ export default function Home() {
       <>
         <button onClick={signIn}>Sign in</button>
       </>
-    )}
+    )   }
     </>
   )
 }

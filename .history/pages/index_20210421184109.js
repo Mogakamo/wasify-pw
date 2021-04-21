@@ -22,10 +22,10 @@ export default function Home() {
       </Head>
     </div>
     {!session && (
-      <>
-        <button onClick={signIn}>Sign in</button>
-      </>
-    )}
+      
+    )
+
+    }
     </>
   )
 }

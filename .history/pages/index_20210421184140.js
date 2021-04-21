@@ -23,9 +23,11 @@ export default function Home() {
     </div>
     {!session && (
       <>
-        <button onClick={signIn}>Sign in</button>
+        <button onClick=>
       </>
-    )}
+    )
+
+    }
     </>
   )
 }
