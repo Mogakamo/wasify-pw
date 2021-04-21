@@ -26,11 +26,7 @@ export default function Home() {
         <button onClick={signIn}>Sign in</button>
       </>
     )}
-    {session && (
-      <>
-        <button onClick={signOut}>SignOut</button>
-      </>
-    )}
+    {session}
     </>
   )
 }

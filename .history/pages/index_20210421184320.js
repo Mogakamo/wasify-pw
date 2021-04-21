@@ -27,9 +27,7 @@ export default function Home() {
       </>
     )}
     {session && (
-      <>
-        <button onClick={signOut}>SignOut</button>
-      </>
+      
     )}
     </>
   )
