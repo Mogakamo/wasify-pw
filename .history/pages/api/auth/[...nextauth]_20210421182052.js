@@ -13,9 +13,7 @@ const options = {
                     pass: process.EMAIL_PASSWORD,
 
                 },
-                tls: {
-                    rejectUnauthorized: false,
-                }
+                t
             }
         })
     ]

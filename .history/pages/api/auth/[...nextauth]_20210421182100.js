@@ -14,7 +14,7 @@ const options = {
 
                 },
                 tls: {
-                    rejectUnauthorized: false,
+                    reje
                 }
             }
         })
