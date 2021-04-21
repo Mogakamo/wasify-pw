@@ -4,15 +4,14 @@ const options = {
     session: {
         jwt: true,
         maxAge: 30 * 24 * 60 * 60 //30 days
-        
+
     },
     site: process.env.NEXTAUTH_URL,
     providers: [
         Providers.Email({
             server: {
-                port: 465,
-                host: 'smtp.gmail.com',
-                secure: true,
+                host: process.env.EMAIL_SERVER_HOST,
+      port: process.env.EMAIL_SERVER_PORT,secure: true,
                 auth: {
                     user: process.env.EMAIL_USERNAME,
                     pass: process.EMAIL_PASSWORD,

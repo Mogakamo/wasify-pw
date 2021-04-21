@@ -13,8 +13,8 @@ const options = {
         port: process.env.EMAIL_SERVER_PORT,
         secure: true,
         auth: {
-          user: process.env.EMAIL_SERVER_USER,
-          pass: process.EMAIL_SERVER_PASSWORD,
+          user: process.env.EMAIL_SER,
+          pass: process.EMAIL_PASSWORD,
         },
         tls: {
           rejectUnauthorized: false,

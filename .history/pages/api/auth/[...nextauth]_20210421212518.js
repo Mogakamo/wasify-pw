@@ -14,7 +14,7 @@ const options = {
         secure: true,
         auth: {
           user: process.env.EMAIL_SERVER_USER,
-          pass: process.EMAIL_SERVER_PASSWORD,
+          pass: process.EMAIL_PASSWORD,
         },
         tls: {
           rejectUnauthorized: false,
