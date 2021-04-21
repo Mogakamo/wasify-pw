@@ -9,6 +9,6 @@ export default function MyApp({ Component, pageProps }) {
     <Provider session={pageProps.session}>
 	  <Component {...pageProps} />
 	  <Crisp />
-    </Provider>
+    </>
   )
 }

@@ -6,9 +6,9 @@ import Crisp from '../components/crisp'
 
 export default function MyApp({ Component, pageProps }) {
   return(
-    <Provider session={pageProps.session}>
+    <Provider >
 	  <Component {...pageProps} />
 	  <Crisp />
-    </Provider>
+    </>
   )
 }
