@@ -12,7 +12,7 @@ const SignIn = () => {
 	  </Head>	
           <NavBar />
 
-	  <LoginForm />
+	  <VLoginForm />
 
 	  <Footer />	
 	 </>
