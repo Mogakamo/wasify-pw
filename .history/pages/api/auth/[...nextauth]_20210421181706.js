@@ -1,5 +1,5 @@
 import NextAuth from 'next-auth'
-import Providers from 'next-auth/providers'
+import Prov
 const options = {
     site: process.env.NEXTAUTH_URL
 }
