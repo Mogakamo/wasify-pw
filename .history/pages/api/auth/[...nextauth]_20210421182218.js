@@ -17,10 +17,9 @@ const options = {
                     rejectUnauthorized: false,
                 },
             },
-            from: process.env.EMAIL_FROM,
+            from: process.env.EMAIL
         })
-    ],
-    database: process.env.DATABASE_URL
+    ]
 }
 
 export default (req, res) => NextAuth(req, res, options)
