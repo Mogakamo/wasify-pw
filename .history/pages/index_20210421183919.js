@@ -7,11 +7,7 @@ import { signIn, signOut, useSession } from 'next-auth/client'
 
 export default function Home() {
 
-  const [session, loading] = useSession()
-
-  if (loading) {
-    return <p>Loading...</p>
-  }
+  const [session, l]
 
   return (
     <>
@@ -21,9 +17,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     </div>
-    {
-      
-    }
+      <Layout />
     </>
   )
 }
