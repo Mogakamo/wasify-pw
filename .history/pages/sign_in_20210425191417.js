@@ -1,14 +1,5 @@
 import React from 'react'
 import { provider, signIn, getSession, csrfToken } from 'next-auth'
-import {
-  Box,
-  Button,
-  Flex,
-  Heading,
-  Input,
-  Container,
-  Stack,
-} from "@chakra-ui/react";
 
 const SignIn = (provider, csrfToken) => {
     return (
