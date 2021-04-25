@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
-import Layout from '../components/Layout'
+import Layout fr
 
 export default function Home({ isConnected }) {
   return (
