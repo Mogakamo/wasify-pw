@@ -28,7 +28,7 @@ export default function Home({ isConnected }) {
 
  // const isConnected = await client.isConnected()
 
-  //return {
-   // props: { isConnected },
-  //}
-//}//
+  return {
+    props: { isConnected },
+  }
+}
