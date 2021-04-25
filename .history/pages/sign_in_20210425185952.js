@@ -5,4 +5,3 @@ const SignIn = (provider, csrfToken) => {
 
 } 
 
-export default SignIn
