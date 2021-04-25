@@ -1,5 +1,0 @@
-import { MongoClient } from 'mongodb'
-
-/**
- * 
- */

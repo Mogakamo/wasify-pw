@@ -1,2 +1,0 @@
-//react-loadingg package
-//annnnnnnnnnnnnnnnnnnn

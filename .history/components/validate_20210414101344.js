@@ -1,3 +1,0 @@
-//validation file 
-
-const validate = ()
