@@ -9,7 +9,7 @@ export default function Home({ isConnected }) {
       </Head>
 
       
-  )
+
         {/**{isConnected ? (
           <h2 className="subtitle">You are connected to MongoDB</h2>
         ) : (
@@ -19,7 +19,7 @@ export default function Home({ isConnected }) {
           </h2>
         )}*/}
 
-        
+        )
 }
 
 export async function getServerSideProps(context) {

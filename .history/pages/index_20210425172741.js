@@ -19,7 +19,7 @@ export default function Home({ isConnected }) {
           </h2>
         )}*/}
 
-        
+        )
 }
 
 export async function getServerSideProps(context) {

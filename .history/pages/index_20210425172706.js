@@ -3,13 +3,14 @@ import { connectToDatabase } from '../util/mongodb'
 
 export default function Home({ isConnected }) {
   return (
+    <div className="container">
       <Head>
-        <title>Wasify</title>
+        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       
-  )
+
         {/**{isConnected ? (
           <h2 className="subtitle">You are connected to MongoDB</h2>
         ) : (
@@ -19,7 +20,7 @@ export default function Home({ isConnected }) {
           </h2>
         )}*/}
 
-        
+        )
 }
 
 export async function getServerSideProps(context) {
