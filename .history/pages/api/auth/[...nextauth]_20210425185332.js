@@ -41,10 +41,7 @@ export default NextAuth({
       clientSecret: process.env.TWITTER_SECRET,
     }),
   ],
-  //designed pages 
-  pages: {
-    signIn: "/sign_in",
-  },
+  
   // Database optional. MySQL, Maria DB, Postgres and MongoDB are supported.
   // https://next-auth.js.org/configuration/databases
   //
