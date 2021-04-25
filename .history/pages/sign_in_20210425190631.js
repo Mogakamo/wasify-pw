@@ -14,9 +14,7 @@ SignIn.getInitialProps = async(context) => {
     const session = await getSession({req});
 
     if (session && res && accessToken) {
-        res.writeHead(302, {
-            Location: "/",
-        })
+        res.writeHead
     }
 }
 

@@ -13,11 +13,7 @@ SignIn.getInitialProps = async(context) => {
     const {req, res} = context;
     const session = await getSession({req});
 
-    if (session && res && accessToken) {
-        res.writeHead(302, {
-            Location: "/",
-        })
-    }
+    if
 }
 
 export default SignIn
