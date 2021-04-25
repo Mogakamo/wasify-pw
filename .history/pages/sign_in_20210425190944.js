@@ -23,7 +23,6 @@ SignIn.getInitialProps = async(context) => {
     return {
         session: undefined,
         providers: await providers(context),
-        csrfToken: await csrfToken(context),
     }
 }
 
