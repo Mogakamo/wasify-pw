@@ -10,7 +10,7 @@ const SignIn = (provider, csrfToken) => {
 } 
 
 SignIn.getInitialProps = async(context) => {
-    const {req, res} = context;
+    const (req, res) = co
 }
 
 export default SignIn
