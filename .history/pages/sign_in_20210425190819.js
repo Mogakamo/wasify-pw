@@ -20,9 +20,7 @@ SignIn.getInitialProps = async(context) => {
         res.end();
         return;
     }
-    return {
-        
-    }
+    retur
 }
 
 export default SignIn

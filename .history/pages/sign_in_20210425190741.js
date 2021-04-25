@@ -18,10 +18,6 @@ SignIn.getInitialProps = async(context) => {
             Location: "/",
         });
         res.end();
-        return;
-    }
-    return {
-        
     }
 }
 

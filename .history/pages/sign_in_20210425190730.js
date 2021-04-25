@@ -17,10 +17,6 @@ SignIn.getInitialProps = async(context) => {
         res.writeHead(302, {
             Location: "/",
         });
-        res.end();
-        return;
-    }
-    return {
         
     }
 }
