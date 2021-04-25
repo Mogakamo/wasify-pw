@@ -231,4 +231,3 @@ export async function getServerSideProps(context) {
     props: { isConnected },
   }
 }
-
