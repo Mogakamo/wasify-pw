@@ -11,7 +11,7 @@ const SignIn = (provider, csrfToken) => {
 
 SignIn.getInitialProps = async(context) => {
     const {req, res} = context;
-    const session = await(getSession());
+    const session 
 }
 
 export default SignIn
