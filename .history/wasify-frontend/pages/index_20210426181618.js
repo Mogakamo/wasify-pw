@@ -7,13 +7,13 @@ import Layout from '../components/Layout'
 export default function Home() {
   const [session, loading] = useSession();
   return (
-    <div>
+    <div >
       <Head>
         <title>Auth Examples</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className={styles.main}>
         {!session && (
           <>
             Not signed in <br />
