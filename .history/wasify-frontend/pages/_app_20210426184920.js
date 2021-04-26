@@ -5,11 +5,10 @@ import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <PayPalScriptProvider options={{ "client-id": PAYPAL_CLIENT_ID.clientId }}>
-      <Provider session={pageProps.session}>
-        <Component {...pageProps} />
-      </Provider>
-    </PayPalScriptProvider>
+    <PayPalScriptProvider options= {{"client-id": PAYPAL_CLIENT_ID.clientId }}>
+    <Provider session={pageProps.session}>
+      <Component {...pageProps} />
+    </Provider>
   );
 }
 
