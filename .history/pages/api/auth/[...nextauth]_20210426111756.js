@@ -15,15 +15,15 @@ export default NextAuth({
       //clientSecret: {
         //appleId: process.env.APPLE_ID,
         //teamId: process.env.APPLE_TEAM_ID,
-        //privateKey: process.env.APPLE_PRIVATE_KEY,
-        //keyId: process.env.APPLE_KEY_ID,
-      //},
-    //}),
-    //Providers.Auth0({
-      //clientId: process.env.AUTH0_ID,
-      //clientSecret: process.env.AUTH0_SECRET,
-      //domain: process.env.AUTH0_DOMAIN,
-    //}),
+        /privateKey: process.env.APPLE_PRIVATE_KEY,
+        keyId: process.env.APPLE_KEY_ID,
+      },
+    }),
+    Providers.Auth0({
+      clientId: process.env.AUTH0_ID,
+      clientSecret: process.env.AUTH0_SECRET,
+      domain: process.env.AUTH0_DOMAIN,
+    }),
     Providers.Facebook({
       clientId: process.env.FACEBOOK_ID,
       clientSecret: process.env.FACEBOOK_SECRET,
@@ -51,7 +51,7 @@ export default NextAuth({
   // Notes:
   // * You must install an appropriate node_module for your database
   // * The Email provider requires a database (OAuth providers do not)
-  database: process.env.MONGODB_URI,
+  database: process.env.DATABASE_URL,
 
   // The secret should be set to a reasonably long random string.
   // It is used to sign cookies and to sign and encrypt JSON Web Tokens, unless
