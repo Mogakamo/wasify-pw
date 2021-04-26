@@ -29,12 +29,4 @@ export default function Secret() {
             </>
         )
     }
-    return (
-        <>
-         <div>
-             <h1>Protected page</h1>
-             <p>{content}</p>
-         </div>
-        </>
-    )
 }

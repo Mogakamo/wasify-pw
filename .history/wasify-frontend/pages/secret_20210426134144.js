@@ -23,18 +23,9 @@ export default function Secret() {
         return (
             <>
             <div>
-                <h1>You are not signed in. Sign in first.</h1>
-                
+                <h1>You are not signed in. Sign in fir</h1>
             </div>
             </>
         )
     }
-    return (
-        <>
-         <div>
-             <h1>Protected page</h1>
-             <p>{content}</p>
-         </div>
-        </>
-    )
 }
