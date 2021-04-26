@@ -11,7 +11,7 @@ const options = {
     //    clientId: process.env.TWITTER_ID,
     //    clientSecret: process.env.TWITTER_SECRET
     //}),
-    /* Providers.Email({
+    Providers.Email({
       server: {
         host: "",
         port: "",
@@ -21,6 +21,6 @@ const options = {
         },
       },
       from: "",
-    }), */
+    }),
   ],
 };
