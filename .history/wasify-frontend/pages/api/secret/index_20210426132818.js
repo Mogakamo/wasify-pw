@@ -8,8 +8,6 @@ export default async (req,res) => {
             content: "Welcome to the secret page"
         });
     } else {
-        res.send({
-            error: "You need to be signed in."
-        })
+        
     }
 }
