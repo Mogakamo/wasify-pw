@@ -1,12 +1,8 @@
 import Head from 'next/head'
 import { connectToDatabase } from '../util/mongodb'
 import Layout from '../components/Layout'
-import { signIn, signOut, useSession } from "next-auth/client";
-
 
 export default function Home({ isConnected }) {
-  const [session, loading] = useSession();
-
   return (
      <>
     {!session && <>
