@@ -6,9 +6,7 @@ import { signIn, signOut, useSession } from 'next-auth/client'
 
 
 export default function Home() {
-  const [sesssion, loading] = useSession();
-
-  
+  const [sesssion ]
   return (
     <div className={styles.container}>
       <Head>
