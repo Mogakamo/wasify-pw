@@ -23,6 +23,7 @@ const options = {
       from: process.env.EMAIL_FROM,
     }),
   ],
+  data
 };
 
 export default (req, res) => NextAuth(req,res, options)

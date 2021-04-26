@@ -23,6 +23,11 @@ const options = {
       from: process.env.EMAIL_FROM,
     }),
   ],
+  database: {
+      type: "mongodb",
+      database: "wasify-users"
+      synchro
+  }
 };
 
 export default (req, res) => NextAuth(req,res, options)

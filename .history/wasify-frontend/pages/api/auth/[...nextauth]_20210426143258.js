@@ -23,6 +23,9 @@ const options = {
       from: process.env.EMAIL_FROM,
     }),
   ],
+  database: {
+      type: "mongo"
+  }
 };
 
 export default (req, res) => NextAuth(req,res, options)
