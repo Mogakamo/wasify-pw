@@ -1,4 +1,3 @@
-import { PayPalButtons } from '@paypal/react-paypal-js'
 import Link from 'next/link'
 import PaypalButton from './Paypal'
 
@@ -205,7 +204,7 @@ const Footer = () => {
                 Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken
                 spare ribs salami.
               </p> */}
-              <PayPalButton />
+              <PayP>
             </div>
           </div>
           <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
