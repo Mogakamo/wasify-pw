@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react'
 import Link from 'next/link'
-import { signIn, signOut, useSession } from 'next-auth/client'
+i
 
 
 export default function Home() {
