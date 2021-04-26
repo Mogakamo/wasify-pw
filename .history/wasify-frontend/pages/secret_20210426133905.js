@@ -16,6 +16,4 @@ export default function Secret() {
         }
         fetchData();
     }, [session]);
-
-    if( typeof window !== "undefined" && loading) return null;
 }

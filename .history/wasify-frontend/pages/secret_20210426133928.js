@@ -17,5 +17,5 @@ export default function Secret() {
         fetchData();
     }, [session]);
 
-    if( typeof window !== "undefined" && loading) return null;
+    if( typeof window !== "undefined")
 }
