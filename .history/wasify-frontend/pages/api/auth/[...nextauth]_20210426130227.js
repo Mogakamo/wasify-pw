@@ -7,10 +7,10 @@ const options = {
             clientId: "",
             clientSecret: ""
         }),
-        Providers.Twitter({
-            clientId: "",
-            clientSecret: ""
-        }),
+        //Providers.Twitter({
+        //    clientId: "",
+        //    clientSecret: ""
+        //}),
         Providers.Email({
             server: {
                 host: "",

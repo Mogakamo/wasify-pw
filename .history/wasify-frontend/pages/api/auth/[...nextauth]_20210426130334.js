@@ -8,8 +8,8 @@ const options = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
     //Providers.Twitter({
-    //    clientId: process.env.TWITTER_ID,
-    //    clientSecret: process.env.TWITTER_SECRET
+    //    clientId: process.env.TWITTE,
+    //    clientSecret: ""
     //}),
     Providers.Email({
       server: {

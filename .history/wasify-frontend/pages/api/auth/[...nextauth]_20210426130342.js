@@ -9,7 +9,7 @@ const options = {
     }),
     //Providers.Twitter({
     //    clientId: process.env.TWITTER_ID,
-    //    clientSecret: process.env.TWITTER_SECRET
+    //    clientSecret: process.env.T
     //}),
     Providers.Email({
       server: {

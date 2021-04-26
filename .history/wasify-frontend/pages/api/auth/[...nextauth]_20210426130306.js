@@ -5,11 +5,11 @@ const options = {
   providers: [
     Providers.GitHub({
       clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_SECRET,
+      clientSecret: process.env.GITHUB_SE,
     }),
     //Providers.Twitter({
-    //    clientId: process.env.TWITTER_ID,
-    //    clientSecret: process.env.TWITTER_SECRET
+    //    clientId: "",
+    //    clientSecret: ""
     //}),
     Providers.Email({
       server: {

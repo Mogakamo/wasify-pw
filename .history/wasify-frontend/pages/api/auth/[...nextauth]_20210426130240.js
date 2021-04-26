@@ -4,13 +4,13 @@ import Providers from 'next-auth/providers'
 const options = {
     providers: [
         Providers.GitHub({
-            clientId: "",
+            clientId: ,
             clientSecret: ""
         }),
-        Providers.Twitter({
-            clientId: "",
-            clientSecret: ""
-        }),
+        //Providers.Twitter({
+        //    clientId: "",
+        //    clientSecret: ""
+        //}),
         Providers.Email({
             server: {
                 host: "",
