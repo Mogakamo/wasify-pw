@@ -29,8 +29,6 @@ export default function Home() {
               <Link href="/secret">To the secret</Link>
             </button>
             <button onClick={signOut}>sign out</button>
-
-            <Layout />
           </>
         )}
       </main>

@@ -7,10 +7,6 @@ const Layout = () => {
     return (
         <>
 
-
-
-        {/**Footer */}
-        <Footer />
         </>
     )
 }

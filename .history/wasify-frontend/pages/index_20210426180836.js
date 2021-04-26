@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import React from "react";
 import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/client";
-import Layout from '../components/Layout'
+import Layout fro
 
 export default function Home() {
   const [session, loading] = useSession();
@@ -29,8 +29,6 @@ export default function Home() {
               <Link href="/secret">To the secret</Link>
             </button>
             <button onClick={signOut}>sign out</button>
-
-            <Layout />
           </>
         )}
       </main>

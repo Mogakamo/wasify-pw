@@ -8,9 +8,7 @@ const Layout = () => {
         <>
 
 
-
-        {/**Footer */}
-        <Footer />
+        
         </>
     )
 }
