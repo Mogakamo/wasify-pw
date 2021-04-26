@@ -27,10 +27,6 @@ export default function Home() {
           session && (
             <>
               Signed is as {session.user.email} <br />
-              <div>
-                you can now access our super secret pageProps
-                <button onClick="signOut">Sign out</button>
-              </div>
             </>
           )
         }

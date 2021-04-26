@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react'
 import Link from 'next/link'
-import { session, signIn, signOut, useSession } from 'next-auth/client'
+import { signIn, signOut, useSession } from 'next-auth/client'
 
 
 export default function Home() {
@@ -23,17 +23,6 @@ export default function Home() {
             <button onClick={signIn}>Sign in</button>
           </>
         )}
-        {
-          session && (
-            <>
-              Signed is as {session.user.email} <br />
-              <div>
-                you can now access our super secret pageProps
-                <button onClick="signOut">Sign out</button>
-              </div>
-            </>
-          )
-        }
       </main>
 
       <footer className={styles.footer}>
