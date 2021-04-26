@@ -25,4 +25,4 @@ const options = {
   ],
 };
 
-export default (req, res) => NextAuth(req,res, options)
+export deault (req, res) => NextAuth(req,res, )
