@@ -14,6 +14,8 @@ export default function Secret() {
                 setContent(json.content)
             }
         }
-        fetchData();
-    }, [session])
+      return () => {
+        effect
+      };
+    }, [input])
 }

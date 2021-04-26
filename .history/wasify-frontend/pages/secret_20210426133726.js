@@ -11,9 +11,11 @@ export default function Secret() {
             const json = await res.json();
 
             if (json.content) {
-                setContent(json.content)
+                setContent()
             }
         }
-        fetchData();
-    }, [session])
+      return () => {
+        effect
+      };
+    }, [input])
 }

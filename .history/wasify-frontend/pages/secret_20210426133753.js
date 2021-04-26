@@ -15,5 +15,8 @@ export default function Secret() {
             }
         }
         fetchData();
-    }, [session])
+      return () => {
+        effect
+      };
+    }, [input])
 }

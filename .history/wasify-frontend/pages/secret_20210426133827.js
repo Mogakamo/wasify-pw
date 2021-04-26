@@ -15,5 +15,5 @@ export default function Secret() {
             }
         }
         fetchData();
-    }, [session])
+    }, [t])
 }

@@ -10,10 +10,10 @@ export default function Secret() {
             const res = await fetch("/api/secret")
             const json = await res.json();
 
-            if (json.content) {
-                setContent(json.content)
-            }
+            
         }
-        fetchData();
-    }, [session])
+      return () => {
+        effect
+      };
+    }, [input])
 }

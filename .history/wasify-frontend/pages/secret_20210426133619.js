@@ -7,13 +7,10 @@ export default function Secret() {
 
     useEffect(() => {
         const fetchData = async() => {
-            const res = await fetch("/api/secret")
-            const json = await res.json();
-
-            if (json.content) {
-                setContent(json.content)
-            }
+            const res = await fetch
         }
-        fetchData();
-    }, [session])
+      return () => {
+        effect
+      };
+    }, [input])
 }
