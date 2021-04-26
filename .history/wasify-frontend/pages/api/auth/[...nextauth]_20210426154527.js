@@ -11,11 +11,7 @@ const options = {
     //    clientId: process.env.TWITTER_ID,
     //    clientSecret: process.env.TWITTER_SECRET
     //}),
-    Providers.Auth0({
-      clientId: process.env.AUTH0_CLIENT_ID,
-      clientSecret: process.env.AUTH0_CLIENT_SECRET,
-      domain: process.env.AUTH0_DOMAIN,
-    }),
+    Providers.Auth0({})
     Providers.Email({
       server: {
         host: process.env.EMAIL_SERVER_HOST,
@@ -28,7 +24,7 @@ const options = {
       from: process.env.EMAIL_FROM,
     }),
   ],
-  database: process.env.DATABASE_URL,
+  database: process.env.DATABASE_URL
 };
 
 export default (req, res) => NextAuth(req,res, options)
