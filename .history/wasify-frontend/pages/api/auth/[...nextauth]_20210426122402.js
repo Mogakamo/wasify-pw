@@ -14,13 +14,8 @@ const options = {
         Providers.Email({
             server: {
                 host: "",
-                port: "",
-                auth: {
-                    user: "",
-                    pass: ""
-                }
-            },
-            from: "",
+                port: 
+            }
         })
     ]
 }

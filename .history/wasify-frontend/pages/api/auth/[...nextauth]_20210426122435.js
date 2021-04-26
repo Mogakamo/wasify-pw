@@ -19,8 +19,7 @@ const options = {
                     user: "",
                     pass: ""
                 }
-            },
-            from: "",
+            }
         })
     ]
 }

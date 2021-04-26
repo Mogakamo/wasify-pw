@@ -16,11 +16,9 @@ const options = {
                 host: "",
                 port: "",
                 auth: {
-                    user: "",
-                    pass: ""
+                    
                 }
-            },
-            from: "",
+            }
         })
     ]
 }

@@ -20,7 +20,7 @@ const options = {
                     pass: ""
                 }
             },
-            from: "",
+            from: ""
         })
     ]
 }

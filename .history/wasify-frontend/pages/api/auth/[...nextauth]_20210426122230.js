@@ -7,20 +7,9 @@ const options = {
             clientId: "",
             clientSecret: ""
         }),
-        Providers.Twitter({
+        Providers.Twi({
             clientId: "",
             clientSecret: ""
-        }),
-        Providers.Email({
-            server: {
-                host: "",
-                port: "",
-                auth: {
-                    user: "",
-                    pass: ""
-                }
-            },
-            from: "",
         })
     ]
 }

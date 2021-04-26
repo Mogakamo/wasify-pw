@@ -17,10 +17,9 @@ const options = {
                 port: "",
                 auth: {
                     user: "",
-                    pass: ""
+                    pa
                 }
-            },
-            from: "",
+            }
         })
     ]
 }

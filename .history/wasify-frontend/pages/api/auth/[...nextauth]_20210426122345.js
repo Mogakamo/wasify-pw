@@ -12,15 +12,7 @@ const options = {
             clientSecret: ""
         }),
         Providers.Email({
-            server: {
-                host: "",
-                port: "",
-                auth: {
-                    user: "",
-                    pass: ""
-                }
-            },
-            from: "",
+            server
         })
     ]
 }
