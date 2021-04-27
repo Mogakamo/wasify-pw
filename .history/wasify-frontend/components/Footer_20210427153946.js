@@ -17,7 +17,7 @@ const Footer = () => {
         <nav className="mt-4">
           <ul className="space-y-2">
             <li>
-              <Link href="/index" className="font-normal text-base hover:text-gray-100">Home</Link>
+              <Link href="/inde" className="font-normal text-base hover:text-gray-100">Home</Link>
             </li>
             <li>
               <Link href="/about" className="font-normal text-base hover:text-gray-100">About us</Link>

@@ -17,13 +17,13 @@ const Footer = () => {
         <nav className="mt-4">
           <ul className="space-y-2">
             <li>
-              <Link href="/index" className="font-normal text-base hover:text-gray-100">Home</Link>
+              <Link href="/" className="font-normal text-base hover:text-gray-100">Home</Link>
             </li>
             <li>
-              <Link href="/about" className="font-normal text-base hover:text-gray-100">About us</Link>
+              <Link href="/" className="font-normal text-base hover:text-gray-100">About us</Link>
             </li>
             <li>
-              <Link href="/policy" className="font-normal text-base hover:text-gray-100">General Terms &amp; Conditions</Link>
+              <Link href="/poli" className="font-normal text-base hover:text-gray-100">General Terms &amp; Conditions</Link>
             </li>
           </ul>
         </nav>
