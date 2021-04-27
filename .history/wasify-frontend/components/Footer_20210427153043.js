@@ -1,5 +1,5 @@
 /** Site's Footer */
-import Link from 'next/link'
+import Link
 
 
 const Footer = () => {
