@@ -16,7 +16,6 @@ export default function Home() {
       <main>
         {!session && (
           <>
-          <Layout />
           </>
         )}
         {session && (
@@ -28,7 +27,7 @@ export default function Home() {
             </button>
             <button onClick={signOut}>sign out</button>
 
-            
+            <Layout />
           </>
         )}
       </main>

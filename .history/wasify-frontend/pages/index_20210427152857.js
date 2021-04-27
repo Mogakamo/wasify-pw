@@ -28,7 +28,7 @@ export default function Home() {
             </button>
             <button onClick={signOut}>sign out</button>
 
-            
+            <Layout />
           </>
         )}
       </main>
