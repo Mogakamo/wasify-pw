@@ -5,7 +5,7 @@ import * as Sentry from "@sentry/react";
 import { Integrations } from "@sentry/tracing";
 import { init } from "../utils/sentry";
 
-init()
+
 
 function MyApp({ Component, pageProps }) {
   return (
