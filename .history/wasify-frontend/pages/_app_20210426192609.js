@@ -1,13 +1,9 @@
 import 'tailwindcss/tailwind.css';
 import '../styles/globals.css'
 import { Provider } from "next-auth/client";
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider session={pageProps.session}>
-        <Component {...pageProps} />
-    </Provider> 
-  );
-}
-
+    <PayPalScriptProvider options={{ "client-id": process.env.PAYPAL_CLIENT_ID
 export default MyApp;
