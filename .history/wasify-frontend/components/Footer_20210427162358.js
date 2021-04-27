@@ -146,7 +146,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="/" prefetch={false} className="hover:text-gray-100">
+              <Link href="/" prefetch={false}  className="hover:text-gray-100">
                 <span className="sr-only">Instagram</span>
                 <svg
                   className="h-6 w-6"
@@ -161,7 +161,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="/" prefetch={false} className="hover:text-gray-100">
+              <Link href="/" className="hover:text-gray-100">
                 <span className="sr-only">Twitter</span>
                 <svg
                   className="h-6 w-6"
