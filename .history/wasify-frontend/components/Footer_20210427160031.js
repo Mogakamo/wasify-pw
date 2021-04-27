@@ -8,12 +8,9 @@ const Footer = () => {
 
   useEffect(() => {
     router.beforePopState(({url, as, options}) => {
-      if (as !== '/' && as !== './about' && as !== './support' && as !== './policy') {
-        window.location.href = as
-        return false
-      }
+      if (
     })
-  }, []) 
+  }) 
     return (
         
         <div>

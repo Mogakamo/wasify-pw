@@ -13,7 +13,7 @@ const Footer = () => {
         return false
       }
     })
-  }, []) 
+  }, ) 
     return (
         
         <div>

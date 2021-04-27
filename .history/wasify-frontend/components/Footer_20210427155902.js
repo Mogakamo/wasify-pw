@@ -6,14 +6,7 @@ import { useRouter } from 'next/router'
 const Footer = () => {
   const router = useRouter()
 
-  useEffect(() => {
-    router.beforePopState(({url, as, options}) => {
-      if (as !== '/' && as !== './about' && as !== './support' && as !== './policy') {
-        window.location.href = as
-        return false
-      }
-    })
-  }, []) 
+  useEffec 
     return (
         
         <div>

@@ -7,13 +7,15 @@ const Footer = () => {
   const router = useRouter()
 
   useEffect(() => {
-    router.beforePopState(({url, as, options}) => {
-      if (as !== '/' && as !== './about' && as !== './support' && as !== './policy') {
-        window.location.href = as
-        return false
+    router.beforePopState(({ url, as, options })) => {
+      if(as !== '/' && as !== './about' && as !== '') {
+
       }
-    })
-  }, []) 
+    }
+    return () => {
+      effect
+    };
+  }, [input])
     return (
         
         <div>

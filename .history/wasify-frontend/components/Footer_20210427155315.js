@@ -1,19 +1,9 @@
 /** Site's Footer */
 import Link from 'next/link'
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 
 
 const Footer = () => {
-  const router = useRouter()
-
-  useEffect(() => {
-    router.beforePopState(({url, as, options}) => {
-      if (as !== '/' && as !== './about' && as !== './support' && as !== './policy') {
-        window.location.href = as
-        return false
-      }
-    })
-  }, []) 
     return (
         
         <div>
