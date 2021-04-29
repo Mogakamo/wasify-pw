@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
-import { useUser } from "@auth0/nextjs-auth0";
 
 export default function Home() {
   const { user, error, isLoading } = useUser();
@@ -16,8 +15,6 @@ export default function Home() {
       </div>
     );
   }
-  
-  return <a href="/api/auth/login">Login</a>;
   /* 
   return (
     <>
