@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 export async function dbConnect() {
   if (mongoose.connection.readyState >= 1) return;
 
-  return mongoose.connect(process.env.DATABASE_URL, {
+  return mongoose.connect(process.env.DB_CON, {
     newUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: true,
