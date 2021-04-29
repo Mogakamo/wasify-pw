@@ -8,9 +8,7 @@ export default function Home() {
       <Head>
         <title>Wasify</title>
       </Head>
-
-
-      <Layout />
+      
     </>  
   )
 }

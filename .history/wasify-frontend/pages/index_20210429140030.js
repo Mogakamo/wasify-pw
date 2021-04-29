@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../components/Layout'
+import Layout from ''
 
 export default function Home() {
   return (
@@ -8,9 +8,6 @@ export default function Home() {
       <Head>
         <title>Wasify</title>
       </Head>
-
-
-      <Layout />
     </>  
   )
 }
