@@ -26,11 +26,7 @@ export default function Home() {
       </Head>
 
       {
-        session ? (
-          <button onClick={signOut}>sign out</button>
-        ) : (
-          <button onClick={signIn}>sign in</button>
-        )
+        
       }
       {/**<Layout />*/}
     </>  

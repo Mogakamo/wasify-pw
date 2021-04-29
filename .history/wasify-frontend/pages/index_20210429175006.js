@@ -15,24 +15,15 @@ export async function getServerSideProps(context) {
   };
 }
 
-
 export default function Home() {
-  const [session, loading] = useSession();
-
   return (
     <>
       <Head>
         <title>Wasify</title>
       </Head>
 
-      {
-        session ? (
-          <button onClick={signOut}>sign out</button>
-        ) : (
-          <button onClick={signIn}>sign in</button>
-        )
-      }
-      {/**<Layout />*/}
+
+      <Layout />
     </>  
   ) 
 }
