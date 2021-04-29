@@ -19,9 +19,6 @@ const UserSchema = new mongoose.Schema(
         index: true
     },
     bio: String,
-    image: String,
-    hash: String,
-    salt: String,
   },
   {
     timestamps: true,

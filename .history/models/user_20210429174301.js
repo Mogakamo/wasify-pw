@@ -18,10 +18,7 @@ const UserSchema = new mongoose.Schema(
         match: [/\S+@\.\S+/, 'is invalid'],
         index: true
     },
-    bio: String,
-    image: String,
-    hash: String,
-    salt: String,
+    bio: Str
   },
   {
     timestamps: true,

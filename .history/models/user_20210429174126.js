@@ -14,14 +14,8 @@ const UserSchema = new mongoose.Schema(
     email: {
         type: String,
         lowercase: true,
-        required: [true, "cant be blank"],
-        match: [/\S+@\.\S+/, 'is invalid'],
-        index: true
-    },
-    bio: String,
-    image: String,
-    hash: String,
-    salt: String,
+        required
+    }
   },
   {
     timestamps: true,
