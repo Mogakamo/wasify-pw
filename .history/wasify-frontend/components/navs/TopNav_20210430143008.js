@@ -12,13 +12,8 @@ const TopNav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-            <img
-              src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4"
-              alt="logo"
-              height="75"
-              width="75 "
-              className="rounded"
-            />
+            <img src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4" alt="logo" height="75" width="75 " className="rounded" />
+            
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
@@ -61,8 +56,12 @@ const TopNav = () => {
                 About us
               </a>
             </li>
-            <li className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-              <a href="/" aria-label="Sign up" title="Sign up">
+            <li>
+              <a
+                href="/"
+                aria-label="Sign up"
+                title="Sign up"
+              >
                 Sign up
               </a>
             </li>
