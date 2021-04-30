@@ -8,8 +8,6 @@ const Layout = () => {
         <>
         <TopNav />
 
-        <Hero />
-
         <Footer />
         </>
     )
