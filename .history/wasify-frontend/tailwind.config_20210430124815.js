@@ -322,7 +322,8 @@ module.exports = {
       boxShadow: {
         outline: '0 0 0 3px rgba(101, 31, 255, 0.4)',
       },
-    
+    },
+
     spacing: {
       px: '1px',
       0: '0px',
