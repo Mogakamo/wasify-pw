@@ -1,12 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import TopNav from '../components/navs/TopNav'
+import Top
 
 const Layout = () => {
     return (
         <>
-        <TopNav />
-
+        
         <Footer />
         </>
     )

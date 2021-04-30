@@ -5,7 +5,7 @@ import TopNav from '../components/navs/TopNav'
 const Layout = () => {
     return (
         <>
-        <TopNav />
+        <TopN>
 
         <Footer />
         </>
