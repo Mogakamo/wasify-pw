@@ -24,7 +24,7 @@ const items = [
   },
 ];
 
-function Hero() {
+function AppHero() {
   return (
     <div id="hero" className="heroBlock">
       <Carousel>

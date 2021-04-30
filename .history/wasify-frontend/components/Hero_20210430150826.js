@@ -24,7 +24,7 @@ const items = [
   },
 ];
 
-function Hero() {
+function AppHero() {
   return (
     <div id="hero" className="heroBlock">
       <Carousel>
@@ -51,4 +51,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default AppHero;
