@@ -5,6 +5,7 @@ function Hero() {
     <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR | Hero Section</title>
   <div className="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center p-10">
     <div className="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
       <div className="absolute inset-0 -mr-3.5 bg-gradient-to-r from-red-100 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl" />
