@@ -3,9 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div class="absolute inset-0 z-negative lg:opacity-100 opacity-50">
-        <img src="https://source.unsplash.com/random" />
-      </div>
+    
       <div class="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
         <div class="md:pl-8 md:border-l border-white">
           <p class="text-white tracking-wide text-base font-light leading-none">

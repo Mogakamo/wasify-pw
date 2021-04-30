@@ -4,7 +4,13 @@ const Hero = () => {
   return (
     <>
       <div class="absolute inset-0 z-negative lg:opacity-100 opacity-50">
-        <img src="https://source.unsplash.com/random" />
+        <video
+          src="video.mp4"
+          autoplay
+          muted
+          loop
+          class="object-cover w-full h-full"
+        ></video>
       </div>
       <div class="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
         <div class="md:pl-8 md:border-l border-white">
