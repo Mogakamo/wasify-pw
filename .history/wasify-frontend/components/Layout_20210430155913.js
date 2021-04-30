@@ -12,9 +12,7 @@ const Layout = () => {
 
         <Hero />
 
-        <Feature />
-
-        <CallToAction />
+        <>
 
         <Footer />
         </>

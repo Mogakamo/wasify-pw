@@ -14,7 +14,7 @@ const Layout = () => {
 
         <Feature />
 
-        <CallToAction />
+        <Call>
 
         <Footer />
         </>

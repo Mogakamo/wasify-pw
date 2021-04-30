@@ -11,10 +11,7 @@ const Layout = () => {
         <TopNav />
 
         <Hero />
-
-        <Feature />
-
-        <CallToAction />
+        
 
         <Footer />
         </>
