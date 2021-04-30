@@ -6,7 +6,7 @@ import Hero from './Hero'
 const Layout = () => {
     return (
         <>
-        <TopNav />
+        {<TopNav />}
 
         <Hero />
 
