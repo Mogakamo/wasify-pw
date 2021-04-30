@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <>
     <div className={styles.container}>
       <Head>
         <title>Wasify</title>
@@ -12,8 +11,5 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     </div>
-
-    <Layout />
-    </>
   )
 }
