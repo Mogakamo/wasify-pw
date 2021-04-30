@@ -12,7 +12,7 @@ const TopNav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-            <img src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4" alt="logo" height="75" width="75 " className="rounded" />
+            <img src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4" alt="logo" height="75" width="75 " class />
             
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
