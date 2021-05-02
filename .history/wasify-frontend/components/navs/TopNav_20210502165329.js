@@ -7,7 +7,7 @@ const TopNav = () => {
       <div class="sticky top-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a
-            href="https://wasify.co.ke"
+            href="https://w"
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
