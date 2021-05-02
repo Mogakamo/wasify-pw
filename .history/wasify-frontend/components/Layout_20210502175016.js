@@ -4,7 +4,7 @@ import TopNav from '../components/navs/TopNav'
 import Hero from './Hero'
 import Feature from './Feature'
 import CallToAction from './CallToAction'
-import Testimonials from './Testimonials'
+import T
 
 const Layout = () => {
     return (
@@ -14,8 +14,6 @@ const Layout = () => {
         <Hero />
 
         <Feature />
-
-        <Testimonials />
 
         <CallToAction />
 

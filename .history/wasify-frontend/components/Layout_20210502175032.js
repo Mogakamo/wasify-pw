@@ -15,7 +15,7 @@ const Layout = () => {
 
         <Feature />
 
-        <Testimonials />
+        <Te>
 
         <CallToAction />
 
