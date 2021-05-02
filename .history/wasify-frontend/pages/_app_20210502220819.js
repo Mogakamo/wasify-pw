@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "next-auth/client";
-import "tailwindcss/tailwind.css";
+import "/tailwind.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Crisp from "../components/crisp";
 
