@@ -4,7 +4,7 @@ const TopNav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div class="sticky  px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a
             href="https://wasify.co.ke"
@@ -62,7 +62,7 @@ const TopNav = () => {
               </a>
             </li>
             <li className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-              <a href="/api/auth/signin" aria-label="Sign up" title="Sign up">
+              <a href="/" aria-label="Sign up" title="Sign up">
                 Sign up
               </a>
             </li>
