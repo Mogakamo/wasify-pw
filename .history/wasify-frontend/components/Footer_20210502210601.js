@@ -103,8 +103,8 @@ const Footer = () => {
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <a href="mailto:support@wasify.co.ke" className="hover:text-gray-100">
-                    support@wasify.co.ke
+                  <a href="#" className="hover:text-gray-100">
+                    support
                   </a>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://twitter.com/wasify_ke" className="hover:text-gray-100">
+            <a href="#" className="hover:text-gray-100">
               <span className="sr-only">Twitter</span>
               <svg
                 className="h-6 w-6"

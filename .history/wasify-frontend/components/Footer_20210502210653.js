@@ -149,7 +149,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://twitter.com/wasify_ke" className="hover:text-gray-100">
+            <a href="https://t" className="hover:text-gray-100">
               <span className="sr-only">Twitter</span>
               <svg
                 className="h-6 w-6"

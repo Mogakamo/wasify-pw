@@ -40,7 +40,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://wasify.co.ke/policy"
+                    href="#"
                     className="font-normal text-base hover:text-gray-100"
                   >
                     General Terms &amp; Conditions
@@ -77,11 +77,11 @@ const Footer = () => {
                 </div>
                 <div className="flex-1">
                   <address className="not-italic">
-                    14028
+                    Rorikstraat 159
                     <br />
-                    00100, Nairobi
+                    Wijk bij Duurstede
                     <br />
-                    Kenya
+                    The Netherlands
                   </address>
                 </div>
               </div>
@@ -103,8 +103,8 @@ const Footer = () => {
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <a href="mailto:support@wasify.co.ke" className="hover:text-gray-100">
-                    support@wasify.co.ke
+                  <a href="#" className="hover:text-gray-100">
+                    suppo@company.com
                   </a>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://twitter.com/wasify_ke" className="hover:text-gray-100">
+            <a href="#" className="hover:text-gray-100">
               <span className="sr-only">Twitter</span>
               <svg
                 className="h-6 w-6"
