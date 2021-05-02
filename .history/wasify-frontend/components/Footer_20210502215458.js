@@ -4,13 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-white text-gray-600 py-12 xl:pb-24">
       <div className="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16">
-        <img
-          src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4"
-          alt="logo"
-          height="75"
-          width="75 "
-          className="rounded"
-        />
+        
       </div>
       <div className="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
         <div>
