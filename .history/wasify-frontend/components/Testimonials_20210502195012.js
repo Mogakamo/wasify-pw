@@ -1,6 +1,5 @@
 //testimonials 
-import React from 'react'
-import Slider from 'react-slick'
+import React from ''
 
 const Testimonials = () => {
     return (
