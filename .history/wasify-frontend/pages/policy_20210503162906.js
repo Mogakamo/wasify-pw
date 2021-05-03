@@ -6,4 +6,4 @@ const Policy = () => {
     )
 }
 
-export default Policy
+export defau
