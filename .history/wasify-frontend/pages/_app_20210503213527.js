@@ -1,4 +1,5 @@
 import React from "react";
+import { Provider } from "next-auth/client";
 import "tailwindcss/tailwind.css";
 import Crisp from "../components/crisp";
 import { supabase } from "../utils/initSupabase";
@@ -7,9 +8,9 @@ import { supabase } from "../utils/initSupabase";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <Auth.UserContextProvider supabaseClient={supabase}>
+    <Provider session={pageProps.session}>
       <Component {...pageProps} />
       <Crisp />
-    </Auth.UserContextProvider>  
+    </Provider>
   );
 }

@@ -7,9 +7,8 @@ import { supabase } from "../utils/initSupabase";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <Auth.UserContextProvider supabaseClient={supabase}>
+    <AuthenticatorAssertionResponse.UserContextProv>
       <Component {...pageProps} />
       <Crisp />
-    </Auth.UserContextProvider>  
   );
 }

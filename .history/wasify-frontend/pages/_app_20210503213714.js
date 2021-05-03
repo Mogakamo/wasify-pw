@@ -10,6 +10,6 @@ export default function MyApp({ Component, pageProps }) {
     <Auth.UserContextProvider supabaseClient={supabase}>
       <Component {...pageProps} />
       <Crisp />
-    </Auth.UserContextProvider>  
+    </Auth.serContextProvider>  
   );
 }
