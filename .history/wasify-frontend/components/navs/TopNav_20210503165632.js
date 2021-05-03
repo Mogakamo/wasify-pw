@@ -43,7 +43,7 @@ const TopNav = () => {
             </li>
             <li>
               <a
-                href="https://wasify.co.ke/pricing"
+                href="https://wa/pricing"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -53,7 +53,7 @@ const TopNav = () => {
             </li>
             <li>
               <a
-                href="https://wasify.co.ke/about"
+                href="/"
                 aria-label="About us"
                 title="About us"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -61,9 +61,9 @@ const TopNav = () => {
                 About us
               </a>
             </li>
-            <li className="rounded-full inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-              <a href="" aria-label="Sign up" title="Sign up">
-                Sign in
+            <li className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+              <a href="/api/auth/signin" aria-label="Sign up" title="Sign up">
+                Sign up
               </a>
             </li>
           </ul>
