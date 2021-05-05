@@ -25,11 +25,7 @@ function Home() {
       </>
     );  
   } else {
-    return (
-      <>
-
-      </>
-    )
+    return 
   }
   
 }

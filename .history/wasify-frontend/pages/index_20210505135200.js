@@ -24,13 +24,7 @@ function Home() {
         <Layout />
       </>
     );  
-  } else {
-    return (
-      <>
-
-      </>
-    )
-  }
+  } 
   
 }
 
