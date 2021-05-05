@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Layout from '../components/Layout'
 import { withApollo } from '../lib/withApollo'
 import { useFetchUser } from '../lib/user'
-import Login from "../components/Auth/Login";
 
 
 function Home() {
@@ -13,10 +12,6 @@ function Home() {
   }
 
   if (!loading && !user) {
-    return (
-      <Login />
-    );  
-  } else {
     return (
       <>
         <div>
@@ -29,10 +24,15 @@ function Home() {
 
         <Layout />
       </>
+    );  
+  } else {
+    return (
+      <>
+
+      </>
     )
   }
   
 }
 
 export default withApollo()(Home)
-export default withApollo({ ssr: true })(IndexPage);

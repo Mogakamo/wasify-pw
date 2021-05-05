@@ -35,4 +35,3 @@ function Home() {
 }
 
 export default withApollo()(Home)
-export default withApollo({ ssr: true })(IndexPage);

@@ -14,7 +14,7 @@ function Home() {
 
   if (!loading && !user) {
     return (
-      <Login />
+      <Lo>
     );  
   } else {
     return (
@@ -35,4 +35,3 @@ function Home() {
 }
 
 export default withApollo()(Home)
-export default withApollo({ ssr: true })(IndexPage);
