@@ -54,9 +54,11 @@ const apolloServer = new ApolloServer({
             }
         }
 
-        return { db }
+        return 
     }
  });
+
+
 
 export const config = {
     api: {

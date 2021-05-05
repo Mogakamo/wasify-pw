@@ -33,30 +33,8 @@ const resolvers = {
 
 const schema = makeExecutableSchema({
     typeDefs,
-    resolvers,
+    res
 })
-
-let db
-
-const apolloServer = new ApolloServer({ 
-    schema,
-    context: async () => {
-        if (!db) {
-            try {
-              const dbClient = new MongoClient(process.env.MONGODB_URI, {
-                  useNewUrlParser: true,
-                  useUnifiedTopology: true,
-              })
-              if (!dbClient.isConnected()) await dbClient.connect() 
-              db = dbClient.db('Wasify')  
-            } catch (e) {
-                console.log('--->error while connexting with graphql context (db)', e)
-            }
-        }
-
-        return { db }
-    }
- });
 
 export const config = {
     api: {
@@ -64,4 +42,5 @@ export const config = {
     },
 }
 
+const apolloServer = new ApolloServer({ typeDefs, resolvers })
 export default apolloServer.createHandler({ path: 'api/graphql'})

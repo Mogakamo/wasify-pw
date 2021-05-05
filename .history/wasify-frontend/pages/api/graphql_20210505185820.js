@@ -53,10 +53,11 @@ const apolloServer = new ApolloServer({
                 console.log('--->error while connexting with graphql context (db)', e)
             }
         }
-
-        return { db }
+        
     }
  });
+
+
 
 export const config = {
     api: {

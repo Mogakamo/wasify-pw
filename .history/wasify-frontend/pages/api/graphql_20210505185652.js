@@ -47,16 +47,17 @@ const apolloServer = new ApolloServer({
                   useNewUrlParser: true,
                   useUnifiedTopology: true,
               })
-              if (!dbClient.isConnected()) await dbClient.connect() 
-              db = dbClient.db('Wasify')  
+              if (!dbClient.isConnected()) await db {
+                  
+              }  
             } catch (e) {
                 console.log('--->error while connexting with graphql context (db)', e)
             }
         }
-
-        return { db }
     }
  });
+
+
 
 export const config = {
     api: {

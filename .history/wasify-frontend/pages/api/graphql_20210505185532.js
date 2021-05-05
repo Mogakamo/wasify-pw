@@ -43,20 +43,15 @@ const apolloServer = new ApolloServer({
     context: async () => {
         if (!db) {
             try {
-              const dbClient = new MongoClient(process.env.MONGODB_URI, {
-                  useNewUrlParser: true,
-                  useUnifiedTopology: true,
-              })
-              if (!dbClient.isConnected()) await dbClient.connect() 
-              db = dbClient.db('Wasify')  
+              const dbClient = new MongoClient(pro)  
             } catch (e) {
                 console.log('--->error while connexting with graphql context (db)', e)
             }
         }
-
-        return { db }
     }
  });
+
+
 
 export const config = {
     api: {
