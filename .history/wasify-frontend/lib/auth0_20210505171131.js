@@ -23,9 +23,8 @@ export default initAuth0({
   baseURL: "http://wasify.co.ke",
   issuerBaseURL: "https://dev-87zogazk.auth0.com",
   clientID: "G3Ihsd9liYIAL28xgTnG3zL8hdWWC2Uz",
-  clientSecret:
-    "osc7ppPCMIsOXYR3TCPEwbJFEHKhGRBk1kXY5m8k5cRyKw8lJXvzOv2p5THY3pQc",
-  secret: "s%3Al3ozSdvQ83TtC5RvJ.CibaQoHtaY0H3QOB1kqR8H2A",
+  clientSecret: "MY_CLIENT_SECRET",
+  secret: "some_very_long_secret_string",
   clockTolerance: 60,
   httpTimeout: 5000,
   authorizationParams: {
