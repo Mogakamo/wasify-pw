@@ -44,7 +44,7 @@ const createHttpLink = (headers) => {
 
 const createWSLink = () => {
   return new WebSocketLink(
-    new SubscriptionClient("wss://wasify.hasura.app/v1/graphql", {
+    new SubscriptionClient("wss://rea.hasura.app/v1/graphql", {
       lazy: true,
       reconnect: true,
       connectionParams: async () => {

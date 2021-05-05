@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import { withApollo } from '../lib/withApollo'
 import { useFetchUser } from '../lib/user'
 import Login from "../components/Auth/Login";
-import { graphql } from "react-apollo";
+import {graphql} from 'react-apollo'
 
 
 function Home() {
@@ -35,4 +35,4 @@ function Home() {
   
 }
 
-export default Home;
+export default withApollo()(Home);

@@ -34,7 +34,7 @@ const resetTokenLink = onError(({ networkError }) => {
 
 const createHttpLink = (headers) => {
   const httpLink = new HttpLink({
-    uri: "https://wasify.hasura.app/v1/graphql",
+    uri: "https://r.hasura.app/v1/graphql",
     credentials: "include",
     headers, // auth token is fetched on the server side
     fetch,
@@ -44,7 +44,7 @@ const createHttpLink = (headers) => {
 
 const createWSLink = () => {
   return new WebSocketLink(
-    new SubscriptionClient("wss://wasify.hasura.app/v1/graphql", {
+    new SubscriptionClient("wss://ready-panda-91.hasura.app/v1/graphql", {
       lazy: true,
       reconnect: true,
       connectionParams: async () => {
