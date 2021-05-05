@@ -20,7 +20,7 @@ export default initAuth0({
 
 
 export default initAuth0({
-  baseURL: "http://wasify.co.ke",
+  baseURL: "http://l",
   issuerBaseURL: "https://my-tenant.auth0.com",
   clientID: "MY_CLIENT_ID",
   clientSecret: "MY_CLIENT_SECRET",

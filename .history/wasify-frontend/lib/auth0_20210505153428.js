@@ -19,24 +19,3 @@ export default initAuth0({
 });
 
 
-export default initAuth0({
-  baseURL: "http://wasify.co.ke",
-  issuerBaseURL: "https://my-tenant.auth0.com",
-  clientID: "MY_CLIENT_ID",
-  clientSecret: "MY_CLIENT_SECRET",
-  secret: "some_very_long_secret_string",
-  clockTolerance: 60,
-  httpTimeout: 5000,
-  authorizationParams: {
-    scope: "openid profile email",
-    audience: "MY_AUDIENCE",
-  },
-  routes: {
-    callback: "/api/callback",
-    postLogoutRedirect: "/",
-  },
-  session: {
-    rollingDuration: 60 * 60 * 24,
-    absoluteDuration: 60 * 60 * 24 * 7,
-  },
-});
