@@ -11,6 +11,4 @@ middleware
     .use(database)
     .use(session)
     .use(passport.initialize())
-    .use(passport.session())
-
-export default middleware
+    .use(passport)

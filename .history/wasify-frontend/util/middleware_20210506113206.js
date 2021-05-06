@@ -13,4 +13,4 @@ middleware
     .use(passport.initialize())
     .use(passport.session())
 
-export default middleware
+export default
