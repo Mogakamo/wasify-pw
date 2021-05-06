@@ -1,34 +1,29 @@
 {
-  "name": "with-mongodb",
-  "version": "0.1.0",
+  "name": "next-auth-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An example project for NextAuth.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "http://next-auth-example.now.sh",
+  "main": "",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
+  "author": "Iain Collins <me@iaincollins.com>",
+  "contributors": [
+    "Balázs Orbán <info@balazsorban.com>"
+  ],
+  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.25.1",
-    "connect-mongo": "^4.4.1",
-    "dotenv": "^9.0.0",
-    "express-session": "^1.17.1",
-    "isomorphic-unfetch": "^3.1.0",
-    "mongodb": "^3.5.9",
-    "multer": "^1.4.2",
-    "nanoid": "^3.1.22",
-    "next": "latest",
-    "next-connect": "^0.10.1",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^16.13.1",
-    "swr": "^0.5.6",
-    "validator": "^13.6.0"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.14",
-    "tailwindcss": "^2.1.2"
+    "next": "^10.0.7",
+    "next-auth": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sqlite3": "^5.0.2"
   }
 }
