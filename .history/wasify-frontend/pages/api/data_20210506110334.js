@@ -6,5 +6,5 @@ export default async function handler(req, res) {
     const data = await db.collection('users').find({}).toArray()
     console.log(data)
 
-    res.JSON.stringify(json(data))
+    res.JSON.strin(data)
 }
