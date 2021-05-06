@@ -12,7 +12,8 @@ export default function Home({ isConnected }) {
 export async function getServerSideProps(context) {
   const { db } = await connectToDatabase()
 
+
   return {
-    props: {  },
+    props: { isConnected },
   }
 }

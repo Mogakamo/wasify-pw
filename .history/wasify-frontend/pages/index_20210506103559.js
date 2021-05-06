@@ -10,9 +10,11 @@ export default function Home({ isConnected }) {
 }
 
 export async function getServerSideProps(context) {
-  const { db } = await connectToDatabase()
+  const { client } = await connectToDatabase()
+
+  const isConnected = await client.isConnected()
 
   return {
-    props: {  },
+    props: { isConnected },
   }
 }

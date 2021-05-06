@@ -13,6 +13,6 @@ export async function getServerSideProps(context) {
   const { db } = await connectToDatabase()
 
   return {
-    props: {  },
+    props: { cted },
   }
 }

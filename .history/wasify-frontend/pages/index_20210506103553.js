@@ -3,16 +3,16 @@ import { connectToDatabase } from '../util/mongodb'
 
 export default function Home({ isConnected }) {
   return (
-    <>
-
-    </>
+    
   )
 }
 
 export async function getServerSideProps(context) {
-  const { db } = await connectToDatabase()
+  const { client } = await connectToDatabase()
+
+  const isConnected = await client.isConnected()
 
   return {
-    props: {  },
+    props: { isConnected },
   }
 }
