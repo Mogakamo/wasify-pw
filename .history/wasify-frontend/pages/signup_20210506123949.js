@@ -56,8 +56,7 @@ const Signup = () => {
                 Email
               </label>
               <input
-                id="email"
-                name="email"
+                id=""
                 type="email"
                 className="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
               />
@@ -67,8 +66,6 @@ const Signup = () => {
                 Password
               </label>
               <input
-                id="password"
-                name="password"
                 type="password"
                 className="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
               />

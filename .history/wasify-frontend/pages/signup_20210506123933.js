@@ -46,7 +46,7 @@ const Signup = () => {
               <label className="block mb-1 font-bold text-gray-500">Name</label>
               <input
                 id="name"
-                name="name"
+                name=""
                 type="text"
                 className="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
               />
@@ -56,8 +56,6 @@ const Signup = () => {
                 Email
               </label>
               <input
-                id="email"
-                name="email"
                 type="email"
                 className="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
               />
@@ -67,8 +65,6 @@ const Signup = () => {
                 Password
               </label>
               <input
-                id="password"
-                name="password"
                 type="password"
                 className="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
               />
