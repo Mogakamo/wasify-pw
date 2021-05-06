@@ -52,11 +52,4 @@ const client = new MongoClient(process.env.MONGODB_URI, {
   useUnifiedTopology: true,
 })
 
-export default async function database(req, res, next) {
-  if (!client.isConnected()) await client.connect()
-  req.dbClient = client
-  req.db = client.db(process.env.MONGODB_DB)
-  await setUpDb(req.db)
-  return next()
-  
-}
+export default asy

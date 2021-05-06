@@ -57,6 +57,5 @@ export default async function database(req, res, next) {
   req.dbClient = client
   req.db = client.db(process.env.MONGODB_DB)
   await setUpDb(req.db)
-  return next()
-  
+  return next
 }
