@@ -5,7 +5,7 @@ export default function Home({ isConnected }) {
   return (
     <div className="container">
       <Head>
-        <title>Wasify - Your Number 1 Freelancing site</title>
+        <title>Wasfy - Your Number 1 Freelancing site</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
