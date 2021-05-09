@@ -4,8 +4,7 @@ import { Chat, Channel, ChannelHeader, MessageInput, MessageList, Thread, Window
 import 'stream-chat-react/dist/css/index.css'
 
 const chatClient = StreamChat.getInstance("ta76zvxu6w4b");
-const userToken =
-  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiZnJvc3R5LWZpZWxkLTUifQ.emo5WMw92KSP4XVExiJJ0-Kz6sYTGKIsvOms5h9d450";
+const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiZGFyay1kYXJrbmVzcy0zIn0.HxpIAorFKLHcLhbAw2P2yGo8f99sMnMdogPieLGarnk';
 
 chatClient.connectUser({
   id: "dark-darkness-3",
@@ -25,19 +24,18 @@ const channel = chatClient.channel("messaging", "dark-darkness-3", {
 
 const Chatt = () => {
     return (
-      <>
-        <Chat client={chatClient} theme="messaging light">
-          <Channel channel={channel}>
-            <Window>
-              <ChannelHeader />
-              <MessageList />
-              <MessageInput />
-            </Window>
-            <Thread />
-          </Channel>
-        </Chat>
-      </>
-    );
+        <>
+         <Chat client={chatClient} theme='messaging light'>
+             <Channel channel="channel">
+                <Window>
+                    <ChannelHeader />
+                    <MessageList />
+                    <MessageInput />
+                </Window>
+             </Channel>
+         </Chat>
+        </>
+    )
 }
 
 export default Chatt

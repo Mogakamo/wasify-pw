@@ -25,19 +25,18 @@ const channel = chatClient.channel("messaging", "dark-darkness-3", {
 
 const Chatt = () => {
     return (
-      <>
-        <Chat client={chatClient} theme="messaging light">
-          <Channel channel={channel}>
-            <Window>
-              <ChannelHeader />
-              <MessageList />
-              <MessageInput />
-            </Window>
-            <Thread />
-          </Channel>
-        </Chat>
-      </>
-    );
+        <>
+         <Chat client={chatClient} theme='messaging light'>
+             <Channel channel="channel">
+                <Window>
+                    <ChannelHeader />
+                    <MessageList />
+                    <MessageInput />
+                </Window>
+             </Channel>
+         </Chat>
+        </>
+    )
 }
 
 export default Chatt
