@@ -30,12 +30,10 @@ const Chat = () => {
                 <Window>
                     <ChannelHeader />
                     <MessageList />
-                    <MessageInput />
+                    <MessageInput /
                 </Window>
              </Channel>
          </Chat>
         </>
     )
 }
-
-export default Chat

@@ -31,11 +31,10 @@ const Chat = () => {
                     <ChannelHeader />
                     <MessageList />
                     <MessageInput />
+            
                 </Window>
              </Channel>
          </Chat>
         </>
     )
 }
-
-export default Chat

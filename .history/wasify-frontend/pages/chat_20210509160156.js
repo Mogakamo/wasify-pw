@@ -26,16 +26,8 @@ const Chat = () => {
     return (
         <>
          <Chat client={chatClient} theme='messaging light'>
-             <Channel channel="channel">
-                <Window>
-                    <ChannelHeader />
-                    <MessageList />
-                    <MessageInput />
-                </Window>
-             </Channel>
+             <C
          </Chat>
         </>
     )
 }
-
-export default Chat
