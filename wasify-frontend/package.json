@@ -7,6 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "getstream": "^7.2.9",
     "mongodb": "^3.5.9",
     "next": "latest",
     "next-auth": "^3.20.1",

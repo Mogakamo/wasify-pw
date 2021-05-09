@@ -34,8 +34,6 @@ const Chatt = () => {
   // Instantiate a new client (client side)
   client = stream.connect("ta76zvxu6w4b", null, "1123757");
   // Find your API keys here https://getstream.io/dashboard/
-
-  
   return (
     <>
       <Chat client={chatClient} theme="messaging light">
