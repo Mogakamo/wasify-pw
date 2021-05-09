@@ -47,6 +47,11 @@ const Navbar = () => {
   </div>
 </section>
 
+         {session && 
+         <>
+         
+         </>
+         }
         </>
     )
 }

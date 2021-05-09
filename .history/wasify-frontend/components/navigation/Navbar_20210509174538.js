@@ -5,6 +5,7 @@ const Navbar = () => {
 
     return (
         <>
+         {!session && 
          <section className="relative w-full px-8 text-gray-700 bg-white body-font">
   <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
     <a href="#_" className="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">tails.</a>
@@ -47,6 +48,12 @@ const Navbar = () => {
   </div>
 </section>
 
+         }
+         {session && 
+         <>
+         
+         </>
+         }
         </>
     )
 }
