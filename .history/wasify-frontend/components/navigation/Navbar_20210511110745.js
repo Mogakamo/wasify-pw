@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
       <>
         {!session && <></>}
-        {session && <> </>}
+        {session && <>}
       </>
     );
 }
