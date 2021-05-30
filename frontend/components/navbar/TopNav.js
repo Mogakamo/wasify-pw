@@ -12,7 +12,7 @@ const TopNav = () => {
                             {/* logo */}
                             <div>
                                 <a href="#" className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-                                    <img src="" alt="logo" />
+                                    <img src="https://avatars.githubusercontent.com/u/67372792?s=400&u=6524ed48e53d8299f85ef1aadd83dfac591aa0d2&v=4" width="100" height="100" alt="logo" />
                                 </a>
                             </div>
                             {/* primary nav */}
