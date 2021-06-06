@@ -1,7 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 function NavBar() {
+    const router = useRouter()
+    const isActive = (r) => {
+        if (r === router.pathname) {
+            return "acive"
+        }
+        else {
+            return ""
+        }
+    }
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,12 +29,20 @@ function NavBar() {
                                 <a class="nav-link" href="#">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-opencart"></i>Pricing</a>
+                                <Link href="/cart">
+                                    <a class={"nav-link" + isActive('/cart')} >
+                                        <i class="fab fa-opencart"></i>Cart
+                                        </a>
+                                </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-user"></i>Sign in</a>
+                                <Link href="sign_in">
+                                    <a class={"nav-link" + isActive('/sign_in')}>
+                                        <i class="fas fa-user"></i>Sign in
+                                    </a>
+                                </Link>
                             </li>
-                            
+
                             {/* <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     User Name
