@@ -21,7 +21,11 @@ function NavBar() {
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fab fa-opencart"></i>Pricing</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-user"></i>Sign in</a>
+                            </li>
+                            
+                            {/* <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     User Name
           </a>
@@ -29,7 +33,7 @@ function NavBar() {
                                     <li><a class="dropdown-item" href="#">profile</a></li>
                                     <li><a class="dropdown-item" href="#">logout</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
