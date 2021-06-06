@@ -22,9 +22,9 @@ const SignIn = () => {
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" htmlFor="exampleCheck1">Check me out</label>
+          <label class="form-check-label" htmlFor="exampleCheck1">Remember me</label>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button type="submit" class="btn btn-dark">Login</button>
         <p >Don't have an account? 
           <Link href="/register">
             <a style={{color: 'green'}}> Register</a>
