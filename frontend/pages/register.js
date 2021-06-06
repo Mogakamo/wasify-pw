@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import {useState} from 'react'
-
+import valid from '../backend/utils/valid'
 
 const Register = () => {
     const initialState = { name: '', email: '', password: '', cf_password: '' }
@@ -14,11 +14,20 @@ const Register = () => {
         setUserData({...userData, [name]: value})
     }
 
-    const handleSubmit = e => {
+    const handleSubmit = async e => {
         e.preventDefault()
-        console.log(userData)
-    }
-    return (
+        const errMsg = valid(name, email, password, cf_password)
+        if(errMsg) return dispatch({ type: 'NOTIFY', payload: {error: errMsg} })
+    
+        dispatch({ type: 'NOTIFY', payload: {loading: true} })
+    
+        const res = await postData('auth/register', userData)
+        
+        if(res.err) return dispatch({ type: 'NOTIFY', payload: {error: res.err} })
+    
+        return dispatch({ type: 'NOTIFY', payload: {success: res.msg} })
+      }
+      return (
         <>
             <div>
                 <Head>
