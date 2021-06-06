@@ -7,6 +7,7 @@ function Layout({children}) {
     return (
         <div>
             <NavBar />
+            <Notify />
             {children}
         </div>
     )
