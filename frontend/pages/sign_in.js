@@ -1,5 +1,6 @@
 
 import Head from 'next/head'
+import Link from 'next/link'
 
 const SignIn = () => {
   return (
@@ -9,7 +10,7 @@ const SignIn = () => {
       </Head>
 
 
-      <form>
+      <form className="mx-auto my-4" style={{maxWidth: '500px'}}>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -21,9 +22,14 @@ const SignIn = () => {
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label" htmlFor="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <p >Don't have an account? 
+          <Link href="/register">
+            <a style={{color: 'green'}}> Register</a>
+          </Link>
+        </p>
       </form>
 
     </div>
