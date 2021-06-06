@@ -26,6 +26,10 @@ const Register = () => {
                         <label htmlFor="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" />
                     </div>
+                    <div class="mb-3">
+                        <label htmlFor="exampleInputPassword2" class="form-label">Re-Enter Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" />
+                    </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                         <label class="form-check-label" htmlFor="exampleCheck1">Remember me</label>
