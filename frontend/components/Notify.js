@@ -1,4 +1,4 @@
-import {useContext} from 'react'
+/* import {useContext} from 'react'
 import {DataContext} from '../store/GlobalState'
 import Loading from './Loading'
 import Toast from './Toast'
@@ -30,4 +30,4 @@ const Notify = () => {
 }
 
 
-export default Notify
+export default Notify */
