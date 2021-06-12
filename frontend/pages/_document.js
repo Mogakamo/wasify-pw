@@ -15,8 +15,6 @@ class MyDocument extends Document {
                         src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
                         data-auto-a11y="true"
                     ></script>
-                    <script src=""></script>
-                    <script src=""></script>
                 </Head>
                 <body>
                     <Main />
