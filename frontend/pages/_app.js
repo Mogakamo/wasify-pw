@@ -1,6 +1,7 @@
 import 'tailwindcss/tailwind.css'
 import Layout from '../components/Layout'
 import { DataProvider } from '../store/GlobalState'
+import '../styles/loading.css'
 
 function MyApp({ Component, pageProps }) {
   return (
