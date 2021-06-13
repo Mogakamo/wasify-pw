@@ -14,42 +14,42 @@ function NavBar() {
     }
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Wasify</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">Wasify</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Features</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link href="/cart">
-                                    <a class={"nav-link" + isActive('/cart')} >
-                                        <i class="fab fa-opencart"></i>Cart
+                                    <a className={"nav-link" + isActive('/cart')} >
+                                        <i className="fab fa-opencart"></i>Cart
                                         </a>
                                 </Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link href="sign_in">
-                                    <a class={"nav-link" + isActive('/sign_in')}>
-                                        <i class="fas fa-user"></i>Sign in
+                                    <a className={"nav-link" + isActive('/sign_in')}>
+                                        <i className="fas fa-user"></i>Sign in
                                     </a>
                                 </Link>
                             </li>
 
-                            {/* <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            {/* <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     User Name
           </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">profile</a></li>
-                                    <li><a class="dropdown-item" href="#">logout</a></li>
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a className="dropdown-item" href="#">profile</a></li>
+                                    <li><a className="dropdown-item" href="#">logout</a></li>
                                 </ul>
                             </li> */}
                         </ul>

@@ -21,6 +21,8 @@ const Register = () => {
         e.preventDefault()
         const errMsg = valid(name, email, password, cf_password)
         if (errMsg) return dispatch({ type: 'NOTIFY', payload: { error: errMsg } })
+
+        dispatch({type: 'NOTIFY', payload: {success: 'Ok'}})
     }
     return (
         <>
@@ -30,8 +32,8 @@ const Register = () => {
                 </Head>
 
 
-                <form className="mx-auto my-4" style={{ maxWidth: '500px' }} onSubmit={handleSubmit}>
-                    <div class="mb-3">
+                <form class="mx-auto my-4" style={{ maxWidth: '500px' }} onSubmit={handleSubmit}>
+                    <div className="mb-3">
                         <label htmlFor="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name" name="name" value={name} onChange={handleChangeInput} />
                     </div>
