@@ -1,10 +1,9 @@
-import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     email: {
         type: String,
@@ -33,3 +32,5 @@ const userSchema = new mongoose.Schema({
 
 let Dataset = mongoose.models.user || mongoose.model('user', userSchema)
 export default Dataset
+
+//
