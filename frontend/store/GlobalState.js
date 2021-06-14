@@ -9,7 +9,7 @@ export const DataProvider = ({ children }) => {
         notify: {}, auth: {}
     }
     const [state, dispatch] = useReducer(reducers, initialState)
-    
+
     useEffect(() => {
         const firstLogin = localStorage.getItem("firstLogin");
         if (firstLogin) {
@@ -26,9 +26,9 @@ export const DataProvider = ({ children }) => {
             })
         }
     })
-    
+
     return (
-        <DataContext.Provider value={{state, dispatch}}>
+        <DataContext.Provider value={{ state, dispatch }}>
             {children}
         </DataContext.Provider>
     )
