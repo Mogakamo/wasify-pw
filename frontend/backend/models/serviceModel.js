@@ -17,7 +17,7 @@ const serviceSchema = new mongoose.Schema({
     timestamps: true
 })
 
-let Dataset = mongoose.models.service || mongoose.model('service ', userSchema)
+let Dataset = mongoose.models.service || mongoose.model('service ', serviceSchema)
 export default Dataset
 
 //

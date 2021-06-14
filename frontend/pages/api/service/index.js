@@ -12,7 +12,7 @@ export default async (req, res) => {
     }
 }
 
-const getServices = (req, res) => {
+const getServices = async (req, res) => {
     try {
         const services = await Services.find()
         res.json({
