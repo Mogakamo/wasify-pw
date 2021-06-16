@@ -8,7 +8,7 @@ import Blog from '../components/Blog'
 import CallToAction from '../components/CallToAction'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
-
+import Main from '../components/Main'
 
 const Home = (serviceProps) => {
   //const [services, setServices] = useState(props.services)
@@ -21,7 +21,8 @@ const Home = (serviceProps) => {
       </Head>
 
       <Hero />
-      
+
+      <Main />  
 
       <Features />
       

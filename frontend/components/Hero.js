@@ -5,7 +5,7 @@ const Hero = () => {
                 {/* Intro settings */}
                 <style dangerouslySetInnerHTML={{ __html: "\n    /* Default height for small devices */\n    #intro-example {\n      height: 400px;\n    }\n\n    /* Height for devices larger than 992px */\n    @media (min-width: 992px) {\n      #intro-example {\n        height: 600px;\n      }\n    }\n  " }} />
                 {/* Background image */}
-                <div id="intro-example" className="p-5 text-center bg-image" style={{ backgroundImage: 'url("https://mdbcdn.b-cdn.net/img/new/slides/041.jpg")' }}>
+                <div id="intro-example" className="p-5 text-center bg-image" style={{ backgroundImage: 'url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg")' }}>
                     <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
                         <div className="d-flex justify-content-center align-items-center h-100">
                             <div className="text-white">
