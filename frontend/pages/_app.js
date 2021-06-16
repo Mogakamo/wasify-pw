@@ -4,6 +4,9 @@ import '../styles/loading.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import '../styles/feature.css'
+import '../styles/blog.css'
+import '../styles/calltoaction.css'
 
 function MyApp({ Component, pageProps }) {
   return (
