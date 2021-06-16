@@ -130,7 +130,7 @@ function NavBar() {
                         <a className="navbar-brand mt-2 mt-lg-0"> WASIFY</a>
                     </Link>
                     {/**Left links */}
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                         <li class="nav-item">
                             <Link href="/">
                                 <a className="nav-link">Home</a>
@@ -154,8 +154,8 @@ function NavBar() {
                     </ul>
                 </div>
 
-                <div class="d-flex align-items-center">
-                    <form class="d-flex input-group w-auto">
+                <div class="d-flex align-items-center px-2">
+                    <form class="d-flex input-group w-auto px-2">
                         <input
                             type="search"
                             class="form-control rounded"
@@ -168,7 +168,7 @@ function NavBar() {
                         </span>
                     </form>
                     <Link href="/cart">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-shopping-cart px-2"></i>
                     </Link>
 
                     {/* <Link href="/">
