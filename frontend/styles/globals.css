@@ -21,3 +21,4 @@ a {
 /*---------------------------Loading */
 @import url("./loading.css");
 @import url("./styles.css");
+@import url("./carousel.css")
