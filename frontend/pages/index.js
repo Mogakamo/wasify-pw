@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Features from '../components/Feature'
+import Testimonial from '../components/Testimonials'
 
 const Home = (serviceProps) => {
   //const [services, setServices] = useState(props.services)
@@ -17,6 +18,9 @@ const Home = (serviceProps) => {
       <br/><br/><br/><br/><br/><br />
 
       <Features />
+
+
+      <Testimonial />
       {/**Footer */}
       <footer className="page-footer font-small unique-color-dark text-white bg-dark">
         {/* Social buttons */}
