@@ -117,7 +117,7 @@ function NavBar() {
     }
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
             <div class="container-fluid">
                 {/**Toggle button */}
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
