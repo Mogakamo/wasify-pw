@@ -127,7 +127,7 @@ const Footer = () => {
                 {/* Copyright */}
                 <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                     © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="https://wasify.co.ke/">wasify.co.ke</a>
+                    <a className="text-reset fw-bold" href="https://wasify.co.ke/" target="_blank">wasify.co.ke</a>
                 </div>
                 {/* Copyright */}
             </footer>

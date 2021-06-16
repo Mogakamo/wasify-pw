@@ -7,6 +7,7 @@ import Testimonial from '../components/Testimonials'
 import Blog from '../components/Blog'
 import CallToAction from '../components/CallToAction'
 import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 
 
 const Home = (serviceProps) => {
@@ -19,14 +20,15 @@ const Home = (serviceProps) => {
         <title>Wasify</title>
       </Head>
 
-      <br/><br/><br/><br/><br/><br />
+      <Hero />
+      
 
       <Features />
-      <br/><br/><br/><br/><br/><br />
+      
 
       <Testimonial />
 
-      <br/><br/><br/><br/><br/><br />
+      
 
       <Blog /><br />
 
