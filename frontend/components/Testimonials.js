@@ -1,43 +1,23 @@
 const Testimonial = () => {
     return (
-        <div className="testimonial10 py-5 bg-success-gradiant">
-            <div className="container">
-                <div className="owl-carousel owl-theme text-center testi10">
-                    {/* item */}
-                    <div className="item">
-                        <div className="quote-bg">
-                            <h3 className="font-weight-light text-white">WrapKit has given our websites huge national presence.We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition</h3>
-                        </div>
-                        <div className="customer-thumb my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/1.jpg" alt="wrapkit" className="rounded-circle" /></div>
-                        <h6 className="text-white mb-0 font-weight-medium">Michael Anderson</h6>
-                        <span className="text-white">Project client</span>
-                    </div>
-                    {/* item */}
-                    {/* item */}
-                    <div className="item">
-                        <div className="quote-bg">
-                            <h3 className="font-weight-light text-white">WrapKit has given our websites huge national presence.We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition</h3>
-                        </div>
-                        <div className="customer-thumb my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/2.jpg" alt="wrapkit" className="rounded-circle" /></div>
-                        <h6 className="text-white mb-0 font-weight-medium">Michael Anderson</h6>
-                        <span className="text-white">Project client</span>
-                    </div>
-                    {/* item */}
-                    {/* item */}
-                    <div className="item">
-                        <div className="quote-bg">
-                            <h3 className="font-weight-light text-white">WrapKit has given our websites huge national presence.We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition</h3>
-                        </div>
-                        <div className="customer-thumb my-3"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/3.jpg" alt="wrapkit" className="rounded-circle" /></div>
-                        <h6 className="text-white mb-0 font-weight-medium">Michael Anderson</h6>
-                        <span className="text-white">Project client</span>
-                    </div>
-                    {/* item */}
-                </div>
-            </div>
-        </div>
+        <div className="container-fluid">
+  <div className="row justify-content-center">
+    <div className=" col-sm-11 col-md-9 col-lg-8 col-xl-7">
+      <div className="card">
+        <p className="post"> <span><img className="quote-img" src="https://i.imgur.com/i06xx2I.png" /></span> <span className="post-txt">This is one of the best platform I have used and you shold give it a try. </span> <span><img className="nice-img" src="https://i.imgur.com/l5AkSHd.png" /></span> </p>
+      </div>
+      <div className="arrow-down" />
+      <div className="row d-flex justify-content-center">
+        <div className> <img className="profile-pic fit-image" src="https://i.imgur.com/RCwPA3O.jpg" /> </div>
+        <p className="profile-name">Anne Snow</p>
+      </div>
+    </div>
+  </div>
+</div>
 
     )
 }
 
 export default Testimonial
+
+//style={{backgroundImage: 'url(https://source.unsplash.com/weekly?africa)'}}>

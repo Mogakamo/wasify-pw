@@ -9,6 +9,7 @@ import '../styles/blog.css'
 import '../styles/calltoaction.css'
 import '../styles/jumbo.css'
 import '../styles/service.css'
+import '../styles/testimony.css'
 
 function MyApp({ Component, pageProps }) {
   return (
