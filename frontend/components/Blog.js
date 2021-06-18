@@ -1,6 +1,6 @@
 const Blog = () => {
     return (
-        <div className="blog-home5 py-5">
+        <div className="blog-home5 py-5" id="blog">
             <div className="container">
                 {/* Row  */}
                 <div className="row justify-content-center">

@@ -35,13 +35,14 @@ function NavBar() {
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <ul>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item dropdown"
+                                style={{ listStyleType: "none" }}>
                                 <a class="dropdown-item">Some news</a>
                             </li>
-                            <li>
+                            <li style={{ listStyleType: "none" }}>
                                 <a class="dropdown-item" href="#">Another news</a>
                             </li>
-                            <li>
+                            <li style={{ listStyleType: "none" }}>
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </li>
                         </ul>
@@ -74,11 +75,11 @@ function NavBar() {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 {/**Toggle button */}
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
                     aria-expanded="false"
                     aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
                 {/**collapsible wrapper */}
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     {/**Navbar brand */}
                     <Link href="/">
                         <a className="navbar-brand mt-2 mt-lg-0"> WASIFY</a>
@@ -87,13 +88,11 @@ function NavBar() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto px-2">
                         <li class="nav-item">
                             <Link href="/">
-                                <a className="nav-link">Home</a>
+                                <a className="nav-link" >Home</a>
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <Link href="/">
-                                <a className="nav-link">Features</a>
-                            </Link>
+                            <a className="nav-link" href="#service">Features</a>
                         </li>
                         <li class="nav-item">
                             <Link href="/">
@@ -101,9 +100,7 @@ function NavBar() {
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <Link href="/">
-                                <a className="nav-link">Blog</a>
-                            </Link>
+                            <a className="nav-link" href="#blog">Blog</a>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
@@ -120,44 +117,6 @@ function NavBar() {
                             </span>
                         </form>
                     </div>
-
-
-
-                    {/* <Link href="/">
-                <a className="navbar-brand">Wasify</a>
-            </Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul className="navbar-nav p-1">
-                    <li className="nav-item">
-                        <Link href="/cart">
-                            <a className={"nav-link" + isActive('/cart')} >
-                                <i className="fab fa-opencart"></i>Cart
-                            </a>
-                        </Link>
-                    </li> */}
-                    {/* <li className="nav-item">
-                             <Link href="/cart">
-                                 <a className={"nav-link" + isActive('/cart')}>
-                                     <i className="fas fa-shopping-cart position-relative" aria-hidden="true">
-                                         <span className="position-absolute"
-                                         style={{
-                                             padding: '3px 6px',
-                                             background: '#ed143dc2',
-                                             borderRadius: '50%',
-                                             top: '-10px',
-                                             right: '-10px',
-                                             color: 'white',
-                                             fontSize: '14px'
-                                         }}>
-                                             {cart.length}
-                                         </span>
-                                     </i> Cart
-                                 </a>
-                             </Link>
-                         </li> */}
                     {
                         Object.keys(auth).length === 0
                             ? <li className="nav-item">
@@ -171,73 +130,10 @@ function NavBar() {
                             </li>
                             : loggedRouter()
                     }
-                    {/* </ul>
-            </div> */}
                 </div>
             </div>
         </nav>
     )
-    //     /* const loggedRouter = () => {
-    //         return (
-    //             <li className="nav-item dropdown" style={{
-    //                 float: 'left'
-    //             }}>
-    //                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    //                     <img src={auth.user.avatar} alt={auth.user.avatar}
-    //                     style={{
-    //                         borderRadius: '50%', width: '30px', height: '30px',
-    //                         transform: 'translateY(-3px)', marginRight: '3px'
-    //                     }} />
-    //                     {auth.user.name}
-    //                 </a>
-    //                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-    //                     <li><a className="dropdown-item" href="#">profile</a></li>
-    //                     <li><a className="dropdown-item" href="#">logout</a></li>
-    //                 </ul>
-    //             </li>
-    //         )
-    //     }
-
-    //     return (
-    //         <div>
-    //             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    //                 <div className="container-fluid">
-    //                     <a className="navbar-brand" href="#">Wasify</a>
-    //                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    //                         <span className="navbar-toggler-icon"></span>
-    //                     </button>
-    //                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-    //                         <ul className="navbar-nav">
-    //                             <li className="nav-item">
-    //                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
-    //                             </li>
-    //                             <li className="nav-item">
-    //                                 <a className="nav-link" href="#">Features</a>
-    //                             </li>
-    //                             <li className="nav-item">
-    //                                 <Link href="/cart">
-    //                                     <a className={"nav-link" + isActive('/cart')} >
-    //                                         <i className="fab fa-opencart"></i>Cart
-    //                                         </a>
-    //                                 </Link>
-    //                             </li>
-    //                             {
-    //                                 Object.keys(auth).length === 0
-    //                                     ? <li className="nav-item">
-    //                                         <Link href="sign_in">
-    //                                             <a className={"nav-link" + isActive('/sign_in')}>
-    //                                                 <i className="fas fa-user"></i>Sign in
-    //                                     </a>
-    //                                         </Link>
-    //                                     </li>
-    //                                     : loggedRouter()
-    //                             }
-    //                         </ul>
-    //                     </div>
-    //                 </div>
-    //             </nav>
-    //         </div>
-    //     ) */
 }
 
 export default NavBar
