@@ -30,7 +30,7 @@ const Home = (serviceProps) => {
       <Features />
       
 
-      <Testimonial /><br /><br /><br /><br />
+      {/* <Testimonial /><br /><br /><br /><br /> */}
 
       
 
