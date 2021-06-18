@@ -1,4 +1,4 @@
-import  Link from 'next/link'
+import Link from 'next/link'
 
 const CallToAction = () => {
     return (
@@ -9,8 +9,9 @@ const CallToAction = () => {
                     <div className="col-md-7 text-center">
                         <h2 className="mb-3 text-dark font-weight-medium">Wanna know more</h2>
                         <p className="font-weight-light text-dark op-8">Get to know how our platform works.</p>
-                        
-                        <a className="btn btn-info btn-md border-0 text-dark mt-3 text-uppercase" href="#"><span>join us now</span></a>
+                        <Link href="register">
+                            <a className="btn btn-info btn-md border-0 text-dark mt-3 text-uppercase" href="#"><span>join us now</span></a>
+                        </Link>
                     </div>
                 </div>
                 {/* Row */}
