@@ -8,6 +8,7 @@ import '../styles/feature.css'
 import '../styles/blog.css'
 import '../styles/calltoaction.css'
 import '../styles/jumbo.css'
+import '../styles/service.css'
 
 function MyApp({ Component, pageProps }) {
   return (
