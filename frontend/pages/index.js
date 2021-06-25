@@ -34,7 +34,7 @@ const Home = (serviceProps) => {
 
       
 
-      <Blog /><br />
+    
 
       <CallToAction />      
 
