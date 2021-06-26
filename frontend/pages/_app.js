@@ -10,6 +10,7 @@ import '../styles/calltoaction.css'
 import '../styles/jumbo.css'
 import '../styles/service.css'
 import '../styles/testimony.css'
+import '../styles/profile.css'
 import dynamic from 'next/dynamic'
 
 const CrispWithNoSSR = dynamic(
