@@ -1,3 +1,9 @@
+import dynamic from 'next/dynamic'
+
+const CrispWithNoSSR = dynamic(
+    () => import('../components/crisp'),
+    { ssr: false }
+)
 
 
 class Crisp extends React.Component {
