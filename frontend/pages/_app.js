@@ -10,6 +10,13 @@ import '../styles/calltoaction.css'
 import '../styles/jumbo.css'
 import '../styles/service.css'
 import '../styles/testimony.css'
+import dynamic from 'next/dynamic'
+
+const CrispWithNoSSR = dynamic(
+  () => import('../components/crisp'),
+  { ssr: false }
+)
+
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -43,6 +50,7 @@ function MyApp({ Component, pageProps }) {
           {/* <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="a440783a-89ae-4110-b23f-37aa59ddb5f5";(function(){d = document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> */}
         </Head>
         <Component {...pageProps} />
+        <CrispWithNoSSR />
       </Layout>
     </DataProvider>
   )
