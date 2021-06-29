@@ -1,26 +1,46 @@
+import { Carousel } from "react-bootstrap"
+
+
 const Hero = () => {
     return (
         <>
-            <header>
-                {/* Intro settings */}
-                <style dangerouslySetInnerHTML={{ __html: "\n    /* Default height for small devices */\n    #intro-example {\n      height: 400px;\n    }\n\n    /* Height for devices larger than 992px */\n    @media (min-width: 992px) {\n      #intro-example {\n        height: 600px;\n      }\n    }\n  " }} />
-                {/* Background image */}
-                <div id="intro-example" className="p-5 text-center bg-image" style={{ backgroundImage: 'url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg")' }}>
-                    <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
-                        <div className="d-flex justify-content-center align-items-center h-100">
-                            <div className="text-white">
-                                <h1 className="mb-3">Welcome to Wasify</h1>
-                                <h5 className="mb-4">Get the best services &amp; and affordable housing </h5>
-                                <h5 className="mb-4">just right here in our platform</h5>
-                                <a className="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" target="_blank">Pricing</a>
-                                <a className="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank" role="button">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* Background image */}
-            </header>
+            <Carousel fade>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="holder.js/800x400?text=First slide&bg=373940"
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="holder.js/800x400?text=Second slide&bg=282c34"
+                        alt="Second slide"
+                    />
 
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </>
     )
 }
